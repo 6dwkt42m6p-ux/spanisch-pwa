@@ -5,6 +5,8 @@ import App from './App'
 import './styles.css'
 
 registerSW({ immediate: true })
+// Lernstand liegt nur lokal: Browser um dauerhaften Speicher bitten (Eviction-Schutz)
+void navigator.storage?.persist?.().catch(() => {})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

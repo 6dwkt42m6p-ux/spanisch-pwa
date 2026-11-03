@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { VOCAB } from '../content'
-import { spanishVoice } from '../speak'
+import { onVoicesChanged, spanishVoice } from '../speak'
 import { todayISO } from '../srs'
 import type { Progress } from '../store'
 
@@ -10,10 +10,7 @@ export default function Info({ progress, onReset }: Props) {
   const [voice, setVoice] = useState<string | null>(() => spanishVoice()?.lang ?? null)
 
   useEffect(() => {
-    if (typeof speechSynthesis === 'undefined') return
-    const update = () => setVoice(spanishVoice()?.lang ?? null)
-    speechSynthesis.addEventListener('voiceschanged', update)
-    return () => speechSynthesis.removeEventListener('voiceschanged', update)
+    return onVoicesChanged(() => setVoice(spanishVoice()?.lang ?? null))
   }, [])
 
   const cards = Object.values(progress.cards)

@@ -1,7 +1,11 @@
 import data from './content/vocabulary.json'
-import type { Vocab } from './types'
+import grammarData from './content/grammar.json'
+import scenarioData from './content/scenarios.json'
+import type { GrammarLesson, Scenario, Vocab } from './types'
 
 export const VOCAB = data as unknown as Vocab[]
+export const SCENARIOS = scenarioData as unknown as Scenario[]
+export const GRAMMAR = grammarData as unknown as GrammarLesson[]
 export const BASICS = '__basics__'
 export const ALL = '__all__'
 
@@ -17,4 +21,10 @@ export function categories(): string[] {
 
 export function phrases(): Vocab[] {
   return VOCAB.filter((v) => v.word_type === 'phrase' || v.category === 'Patagonien')
+}
+
+/** Patagonien-Szenarien zuerst, sonst Dateireihenfolge. */
+export function scenariosSorted(): Scenario[] {
+  const pat = SCENARIOS.filter((s) => s.region === 'patagonia')
+  return [...pat, ...SCENARIOS.filter((s) => s.region !== 'patagonia')]
 }

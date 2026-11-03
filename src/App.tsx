@@ -1,21 +1,27 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import Grammar from './views/Grammar'
 import Info from './views/Info'
 import Learn from './views/Learn'
 import Phrases from './views/Phrases'
+import Scenarios from './views/Scenarios'
 import { GOOD, AGAIN, newCard, todayISO, updateCard } from './srs'
 import { cardKey, loadProgress, saveProgress, type Progress } from './store'
 import type { Direction } from './types'
 
-type Tab = 'learn' | 'phrases' | 'info'
+type Tab = 'learn' | 'phrases' | 'scenarios' | 'grammar' | 'info'
 
 const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: 'learn', label: 'Lernen', icon: '🃏' },
   { id: 'phrases', label: 'Phrasen', icon: '💬' },
+  { id: 'scenarios', label: 'Szenarien', icon: '🎭' },
+  { id: 'grammar', label: 'Grammatik', icon: '📘' },
   { id: 'info', label: 'Info', icon: 'ℹ️' },
 ]
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('learn')
+  const mainRef = useRef<HTMLElement>(null)
+  useEffect(() => { mainRef.current?.scrollTo(0, 0) }, [tab])
   const [progress, setProgress] = useState<Progress>(loadProgress)
 
   const onRate = useCallback((id: string, dir: Direction, known: boolean) => {
@@ -37,9 +43,11 @@ export default function App() {
 
   return (
     <div className="app">
-      <main className="main">
+      <main className="main" ref={mainRef}>
         {tab === 'learn' && <Learn progress={progress} onRate={onRate} />}
         {tab === 'phrases' && <Phrases />}
+        {tab === 'scenarios' && <Scenarios />}
+        {tab === 'grammar' && <Grammar />}
         {tab === 'info' && <Info progress={progress} onReset={onReset} />}
       </main>
       <nav className="tabbar" aria-label="Hauptnavigation">

@@ -44,7 +44,12 @@ export default function Phrases() {
               </div>
               {open === v.id && (
                 <div className="phrase-detail">
-                  {v.example_es && <div>{v.example_es}<div className="muted">{v.example_de}</div></div>}
+                  {v.example_es && (
+                    <div className="line">
+                      <div>{v.example_es}<div className="muted">{v.example_de}</div></div>
+                      <button className="icon-btn" onClick={() => speak(v.example_es)} aria-label="Beispielsatz vorlesen">🔊</button>
+                    </div>
+                  )}
                   {v.south_american_note && <div className="note">📍 {v.south_american_note}</div>}
                 </div>
               )}

@@ -1,12 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { ALL, BASICS, VOCAB, categories } from '../content'
-import { buildQueue, requeue, type QItem } from '../queue'
+import { buildQueue, requeue, seenCount, type QItem } from '../queue'
 import { speak } from '../speak'
 import { todayISO } from '../srs'
 import type { Progress } from '../store'
 import type { Direction } from '../types'
 
 const FILTER_KEY = 'spanisch-pwa:filter'
+const AUTOSPEAK_KEY = 'spanisch-pwa:autospeak'
 const BY_ID = new Map(VOCAB.map((v) => [v.id, v]))
 
 function loadFilter(): string {
@@ -15,6 +16,10 @@ function loadFilter(): string {
     if (f === BASICS || f === ALL || (f && categories().includes(f))) return f
   } catch { /* kein Storage -> Default */ }
   return BASICS
+}
+
+function loadAutospeak(): boolean {
+  try { return localStorage.getItem(AUTOSPEAK_KEY) === '1' } catch { return false }
 }
 
 interface Props {
@@ -26,7 +31,9 @@ export default function Learn({ progress, onRate }: Props) {
   const [filter, setFilter] = useState(loadFilter)
   const [queue, setQueue] = useState<QItem[]>(() => buildQueue(VOCAB, progress.cards, loadFilter(), todayISO()))
   const [revealed, setRevealed] = useState(false)
+  const [autospeak, setAutospeak] = useState(loadAutospeak)
   const cats = useMemo(categories, [])
+  const { seen, total } = useMemo(() => seenCount(VOCAB, progress.cards, filter), [progress.cards, filter])
 
   const restart = (f: string) => setQueue(buildQueue(VOCAB, progress.cards, f, todayISO()))
 
@@ -48,6 +55,22 @@ export default function Learn({ progress, onRate }: Props) {
   const head = queue[0]
   const vocab = head ? BY_ID.get(head.id) : undefined
 
+  const toggleAutospeak = (on: boolean) => {
+    setAutospeak(on)
+    try { localStorage.setItem(AUTOSPEAK_KEY, on ? '1' : '0') } catch { /* ignorieren */ }
+  }
+
+  // Hör-Modus ES->DE: Spanisch beim Erscheinen der Karte
+  useEffect(() => {
+    if (autospeak && head?.dir === 'es_de' && vocab) speak(vocab.spanish)
+  }, [head, autospeak, vocab])
+
+  // Hör-Modus DE->ES: Spanisch beim Aufdecken
+  const reveal = () => {
+    setRevealed(true)
+    if (autospeak && head?.dir === 'de_es' && vocab) speak(vocab.spanish)
+  }
+
   return (
     <section className="view">
       <div className="toolbar">
@@ -59,34 +82,42 @@ export default function Learn({ progress, onRate }: Props) {
         <span className="counter">{queue.length > 0 ? `noch ${queue.length}` : ''}</span>
       </div>
 
+      <div className="progress-row">
+        <div className="progress" role="progressbar" aria-valuemin={0} aria-valuemax={total} aria-valuenow={seen}
+             aria-label="Fortschritt">
+          <div className="progress-fill" style={{ width: total ? `${(seen / total) * 100}%` : '0%' }} />
+        </div>
+        <span className="counter">{seen} von {total} gesehen</span>
+      </div>
+      <label className="switch">
+        <input type="checkbox" checked={autospeak} onChange={(e) => toggleAutospeak(e.target.checked)} />
+        <span>🎧 Hör-Modus (automatisch vorlesen)</span>
+      </label>
+
       {head && vocab ? (
         <>
-          <div
-            className={revealed ? 'card revealed' : 'card'}
-            role="button"
-            tabIndex={0}
-            onClick={() => setRevealed(true)}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setRevealed(true) }}
-          >
-            <span className="badge">{head.dir === 'es_de' ? 'Español → Deutsch' : 'Deutsch → Español'}</span>
-            <div className="card-front">{head.dir === 'es_de' ? vocab.spanish : vocab.german}</div>
-            {!revealed && <div className="hint">Tippen zum Aufdecken</div>}
+          <div className={revealed ? 'card revealed' : 'card'}>
+            <button className="card-face" onClick={reveal} disabled={revealed}
+                    aria-label={revealed ? undefined : 'Karte aufdecken'}>
+              <span className="badge">{head.dir === 'es_de' ? 'Español → Deutsch' : 'Deutsch → Español'}</span>
+              <span className="card-front">{head.dir === 'es_de' ? vocab.spanish : vocab.german}</span>
+              {!revealed && <span className="hint">Tippen zum Aufdecken</span>}
+            </button>
             {revealed && (
               <div className="card-back">
                 <div className="answer">{head.dir === 'es_de' ? vocab.german : vocab.spanish}</div>
                 {vocab.pronunciation && <div className="pron">[{vocab.pronunciation}]</div>}
                 {vocab.example_es && (
                   <div className="example">
-                    <div>{vocab.example_es}</div>
+                    <div className="line">
+                      <span>{vocab.example_es}</span>
+                      <button className="icon-btn" onClick={() => speak(vocab.example_es)} aria-label="Beispielsatz vorlesen">🔊</button>
+                    </div>
                     <div className="muted">{vocab.example_de}</div>
                   </div>
                 )}
                 {vocab.south_american_note && <div className="note">📍 {vocab.south_american_note}</div>}
-                <button
-                  className="speak"
-                  onClick={(e) => { e.stopPropagation(); speak(vocab.spanish) }}
-                  aria-label="Spanisch vorlesen"
-                >
+                <button className="speak" onClick={() => speak(vocab.spanish)} aria-label="Spanisch vorlesen">
                   🔊 Vorlesen
                 </button>
               </div>

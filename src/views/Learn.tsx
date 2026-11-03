@@ -58,6 +58,8 @@ export default function Learn({ progress, onRate }: Props) {
   const toggleAutospeak = (on: boolean) => {
     setAutospeak(on)
     try { localStorage.setItem(AUTOSPEAK_KEY, on ? '1' : '0') } catch { /* ignorieren */ }
+    // iOS gibt Sprachausgabe erst nach einer Nutzer-Geste frei: beim Einschalten direkt vorlesen
+    if (on && vocab) speak(vocab.spanish)
   }
 
   // Hör-Modus ES->DE: Spanisch beim Erscheinen der Karte

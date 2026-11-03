@@ -15,19 +15,27 @@
       "¿Está incluido el maletero?",
       "¿Hay asientos disponibles?"
     ],
+    "key_phrases_de": [
+      "Wann fährt der nächste Bus nach ...?",
+      "Ich hätte gern ein Ticket nach ..., bitte.",
+      "Wie viel kostet die Fahrt nach ...?",
+      "Wie lange dauert die Fahrt?",
+      "Ist das Gepäckfach inklusive?",
+      "Gibt es noch freie Plätze?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Buenas tardes. Quisiera un boleto para Cusco, por favor."},
-      {"role": "agent", "text": "¿Para cuándo lo quiere? ¿Hoy o mañana?"},
-      {"role": "traveler", "text": "Para mañana en la mañana, si es posible."},
-      {"role": "agent", "text": "Hay un bus a las siete y a las nueve. ¿Cuál prefiere?"},
-      {"role": "traveler", "text": "El de las siete, por favor. ¿Cuánto cuesta?"},
-      {"role": "agent", "text": "Son ochenta soles. ¿Va solo o acompañado?"},
-      {"role": "traveler", "text": "Solo. ¿Cuánto dura el viaje?"},
-      {"role": "agent", "text": "Aproximadamente seis horas, dependiendo del tráfico."},
-      {"role": "traveler", "text": "Perfecto. ¿Acepta tarjeta?"},
-      {"role": "agent", "text": "Solo efectivo, señor. Lo siento."},
-      {"role": "traveler", "text": "Está bien. Aquí tiene. ¿El equipaje está incluido?"},
-      {"role": "agent", "text": "Sí, una maleta en el maletero va incluida."}
+      {"role": "traveler", "text": "Buenas tardes. Quisiera un boleto para Cusco, por favor.", "text_de": "Guten Tag. Ich hätte gern ein Ticket nach Cusco, bitte."},
+      {"role": "agent", "text": "¿Para cuándo lo quiere? ¿Hoy o mañana?", "text_de": "Für wann möchten Sie es? Heute oder morgen?"},
+      {"role": "traveler", "text": "Para mañana en la mañana, si es posible.", "text_de": "Für morgen früh, wenn möglich."},
+      {"role": "agent", "text": "Hay un bus a las siete y a las nueve. ¿Cuál prefiere?", "text_de": "Es gibt einen Bus um sieben und einen um neun. Welcher ist Ihnen lieber?"},
+      {"role": "traveler", "text": "El de las siete, por favor. ¿Cuánto cuesta?", "text_de": "Den um sieben, bitte. Wie viel kostet es?"},
+      {"role": "agent", "text": "Son ochenta soles. ¿Va solo o acompañado?", "text_de": "Das macht achtzig Soles. Reisen Sie allein oder in Begleitung?"},
+      {"role": "traveler", "text": "Solo. ¿Cuánto dura el viaje?", "text_de": "Allein. Wie lange dauert die Fahrt?"},
+      {"role": "agent", "text": "Aproximadamente seis horas, dependiendo del tráfico.", "text_de": "Ungefähr sechs Stunden, je nach Verkehr."},
+      {"role": "traveler", "text": "Perfecto. ¿Acepta tarjeta?", "text_de": "Perfekt. Nehmen Sie Karte?"},
+      {"role": "agent", "text": "Solo efectivo, señor. Lo siento.", "text_de": "Nur Bargeld, mein Herr. Tut mir leid."},
+      {"role": "traveler", "text": "Está bien. Aquí tiene. ¿El equipaje está incluido?", "text_de": "Schon gut. Hier bitte. Ist das Gepäck inklusive?"},
+      {"role": "agent", "text": "Sí, una maleta en el maletero va incluida.", "text_de": "Ja, ein Koffer im Gepäckfach ist inklusive."}
     ],
     "cultural_notes": [
       "Busse in Südamerika sind oft besser ausgestattet als erwartet — 'cama' (Liegesitz) und 'semi-cama' lohnen sich für lange Strecken",
@@ -58,20 +66,29 @@
       "La cuenta, por favor.",
       "¿Está todo incluido el servicio?"
     ],
+    "key_phrases_de": [
+      "Einen Tisch für zwei, bitte.",
+      "Können Sie mir die Speisekarte bringen?",
+      "Ich hätte gern das Tagesgericht.",
+      "Was ist das für ein Gericht?",
+      "Ist es scharf?",
+      "Die Rechnung, bitte.",
+      "Ist die Bedienung inbegriffen?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Buenas noches. ¿Tienen mesa para dos personas?"},
-      {"role": "waiter", "text": "Sí, claro. Por aquí, por favor. ¿Quieren ver la carta?"},
-      {"role": "traveler", "text": "Sí, gracias. ¿Cuál es el plato del día?"},
-      {"role": "waiter", "text": "Hoy tenemos ceviche de camarón y lomo saltado."},
-      {"role": "traveler", "text": "¿El lomo saltado es muy picante?"},
-      {"role": "waiter", "text": "No mucho, pero lo podemos preparar sin picante si prefieren."},
-      {"role": "traveler", "text": "Perfecto. Quisiera el lomo saltado, por favor."},
-      {"role": "waiter", "text": "¿Y para tomar?"},
-      {"role": "traveler", "text": "Un agua sin gas y una cerveza, por favor."},
-      {"role": "waiter", "text": "Enseguida."},
-      {"role": "traveler", "text": "(After eating) Estuvo muy rico. ¿Me puede traer la cuenta?"},
-      {"role": "waiter", "text": "Por supuesto. ¿Fue todo bien?"},
-      {"role": "traveler", "text": "Excelente, muchas gracias. ¿Acepta tarjeta?"}
+      {"role": "traveler", "text": "Buenas noches. ¿Tienen mesa para dos personas?", "text_de": "Guten Abend. Haben Sie einen Tisch für zwei Personen?"},
+      {"role": "waiter", "text": "Sí, claro. Por aquí, por favor. ¿Quieren ver la carta?", "text_de": "Ja, natürlich. Hier entlang, bitte. Möchten Sie die Speisekarte sehen?"},
+      {"role": "traveler", "text": "Sí, gracias. ¿Cuál es el plato del día?", "text_de": "Ja, danke. Was ist das Tagesgericht?"},
+      {"role": "waiter", "text": "Hoy tenemos ceviche de camarón y lomo saltado.", "text_de": "Heute haben wir Garnelen-Ceviche und Lomo saltado."},
+      {"role": "traveler", "text": "¿El lomo saltado es muy picante?", "text_de": "Ist das Lomo saltado sehr scharf?"},
+      {"role": "waiter", "text": "No mucho, pero lo podemos preparar sin picante si prefieren.", "text_de": "Nicht besonders, aber wir können es auch ohne Schärfe zubereiten, wenn Sie möchten."},
+      {"role": "traveler", "text": "Perfecto. Quisiera el lomo saltado, por favor.", "text_de": "Perfekt. Ich hätte gern das Lomo saltado, bitte."},
+      {"role": "waiter", "text": "¿Y para tomar?", "text_de": "Und zum Trinken?"},
+      {"role": "traveler", "text": "Un agua sin gas y una cerveza, por favor.", "text_de": "Ein stilles Wasser und ein Bier, bitte."},
+      {"role": "waiter", "text": "Enseguida.", "text_de": "Sofort."},
+      {"role": "traveler", "text": "(After eating) Estuvo muy rico. ¿Me puede traer la cuenta?", "text_de": "(Nach dem Essen) Es war sehr lecker. Können Sie mir bitte die Rechnung bringen?"},
+      {"role": "waiter", "text": "Por supuesto. ¿Fue todo bien?", "text_de": "Selbstverständlich. War alles in Ordnung?"},
+      {"role": "traveler", "text": "Excelente, muchas gracias. ¿Acepta tarjeta?", "text_de": "Ausgezeichnet, vielen Dank. Nehmen Sie Karte?"}
     ],
     "cultural_notes": [
       "'Plato del día' ist oft das beste Preis-Leistungs-Verhältnis — meist ein 2-3 Gänge Menü zu einem Festpreis",
@@ -102,19 +119,28 @@
       "¿A qué hora es el check-out?",
       "¿Hay wifi?"
     ],
+    "key_phrases_de": [
+      "Ich habe eine Reservierung auf den Namen ...",
+      "Haben Sie Zimmer frei?",
+      "Wie viel kostet es pro Nacht?",
+      "Ist das Frühstück inklusive?",
+      "Ist das Bad geteilt oder privat?",
+      "Wann ist der Check-out?",
+      "Gibt es WLAN?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Buenas tardes. Tengo una reserva a nombre de Lukas Weber."},
-      {"role": "receptionist", "text": "Un momento... sí, lo tenemos. Una habitación individual para dos noches."},
-      {"role": "traveler", "text": "Correcto. ¿El baño es privado o compartido?"},
-      {"role": "receptionist", "text": "Compartido, en el corredor. ¿Le parece bien?"},
-      {"role": "traveler", "text": "Sí, está bien. ¿A qué hora es el check-out?"},
-      {"role": "receptionist", "text": "A las once de la mañana. Si necesita salida más tarde, lo podemos arreglar por un costo extra."},
-      {"role": "traveler", "text": "Entendido. ¿Cuál es la clave del wifi?"},
-      {"role": "receptionist", "text": "La contraseña está en este papel. ¿Necesita guardar su equipaje antes de entrar?"},
-      {"role": "traveler", "text": "Sí, tengo una mochila grande. ¿Hay casilleros?"},
-      {"role": "receptionist", "text": "Sí, están en la sala común. Aquí tiene la llave de su habitación."},
-      {"role": "traveler", "text": "Muchas gracias. ¿Está incluido el desayuno?"},
-      {"role": "receptionist", "text": "No, el desayuno no está incluido. Pero hay un mercado muy bueno a una cuadra."}
+      {"role": "traveler", "text": "Buenas tardes. Tengo una reserva a nombre de Lukas Weber.", "text_de": "Guten Tag. Ich habe eine Reservierung auf den Namen Lukas Weber."},
+      {"role": "receptionist", "text": "Un momento... sí, lo tenemos. Una habitación individual para dos noches.", "text_de": "Einen Moment ... ja, haben wir. Ein Einzelzimmer für zwei Nächte."},
+      {"role": "traveler", "text": "Correcto. ¿El baño es privado o compartido?", "text_de": "Richtig. Ist das Bad privat oder geteilt?"},
+      {"role": "receptionist", "text": "Compartido, en el corredor. ¿Le parece bien?", "text_de": "Geteilt, am Flur. Ist das in Ordnung für Sie?"},
+      {"role": "traveler", "text": "Sí, está bien. ¿A qué hora es el check-out?", "text_de": "Ja, passt. Wann ist der Check-out?"},
+      {"role": "receptionist", "text": "A las once de la mañana. Si necesita salida más tarde, lo podemos arreglar por un costo extra.", "text_de": "Um elf Uhr vormittags. Wenn Sie später auschecken möchten, lässt sich das gegen Aufpreis regeln."},
+      {"role": "traveler", "text": "Entendido. ¿Cuál es la clave del wifi?", "text_de": "Verstanden. Wie lautet das WLAN-Passwort?"},
+      {"role": "receptionist", "text": "La contraseña está en este papel. ¿Necesita guardar su equipaje antes de entrar?", "text_de": "Das Passwort steht auf diesem Zettel. Möchten Sie Ihr Gepäck verstauen, bevor Sie hineingehen?"},
+      {"role": "traveler", "text": "Sí, tengo una mochila grande. ¿Hay casilleros?", "text_de": "Ja, ich habe einen großen Rucksack. Gibt es Schließfächer?"},
+      {"role": "receptionist", "text": "Sí, están en la sala común. Aquí tiene la llave de su habitación.", "text_de": "Ja, die sind im Gemeinschaftsraum. Hier ist der Schlüssel zu Ihrem Zimmer."},
+      {"role": "traveler", "text": "Muchas gracias. ¿Está incluido el desayuno?", "text_de": "Vielen Dank. Ist das Frühstück inklusive?"},
+      {"role": "receptionist", "text": "No, el desayuno no está incluido. Pero hay un mercado muy bueno a una cuadra.", "text_de": "Nein, das Frühstück ist nicht inklusive. Aber einen Block weiter gibt es einen sehr guten Markt."}
     ],
     "cultural_notes": [
       "In Südamerika sind Hostels oft ausgezeichnet — nicht nur für Backpacker",
@@ -144,19 +170,27 @@
       "¿Cuánto es todo junto?",
       "¿Me da el vuelto, por favor?"
     ],
+    "key_phrases_de": [
+      "Wie viel kosten die ...?",
+      "Können Sie mir ein Kilo ... geben?",
+      "Haben Sie etwas Reiferes / Frischeres?",
+      "Das ist sehr teuer. Machen Sie mir einen Preis?",
+      "Wie viel macht das zusammen?",
+      "Bekomme ich bitte das Wechselgeld?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Buenas. ¿A cómo están los mangos?"},
-      {"role": "vendor", "text": "Tres por diez pesos, señor."},
-      {"role": "traveler", "text": "¿Y las papayas?"},
-      {"role": "vendor", "text": "La papaya grande está a veinte, la pequeña a doce."},
-      {"role": "traveler", "text": "Deme tres mangos y media papaya pequeña, por favor."},
-      {"role": "vendor", "text": "Está bien. Son veinticinco pesos todo junto."},
-      {"role": "traveler", "text": "¿Me puede hacer un descuentito? Le doy veinte."},
-      {"role": "vendor", "text": "Bueno, veintidós. Es mi último precio."},
-      {"role": "traveler", "text": "Trato. Aquí tiene cincuenta pesos."},
-      {"role": "vendor", "text": "Y acá su vuelto, veintiocho pesos."},
-      {"role": "traveler", "text": "Gracias. ¿Son frescos los mangos?"},
-      {"role": "vendor", "text": "Llegaron esta mañana, fresquísimos."}
+      {"role": "traveler", "text": "Buenas. ¿A cómo están los mangos?", "text_de": "Hallo. Wie viel kosten die Mangos?"},
+      {"role": "vendor", "text": "Tres por diez pesos, señor.", "text_de": "Drei für zehn Pesos, mein Herr."},
+      {"role": "traveler", "text": "¿Y las papayas?", "text_de": "Und die Papayas?"},
+      {"role": "vendor", "text": "La papaya grande está a veinte, la pequeña a doce.", "text_de": "Die große Papaya kostet zwanzig, die kleine zwölf."},
+      {"role": "traveler", "text": "Deme tres mangos y media papaya pequeña, por favor.", "text_de": "Geben Sie mir bitte drei Mangos und eine halbe kleine Papaya."},
+      {"role": "vendor", "text": "Está bien. Son veinticinco pesos todo junto.", "text_de": "In Ordnung. Das macht zusammen fünfundzwanzig Pesos."},
+      {"role": "traveler", "text": "¿Me puede hacer un descuentito? Le doy veinte.", "text_de": "Können Sie mir einen kleinen Rabatt geben? Ich gebe Ihnen zwanzig."},
+      {"role": "vendor", "text": "Bueno, veintidós. Es mi último precio.", "text_de": "Na gut, zweiundzwanzig. Das ist mein letzter Preis."},
+      {"role": "traveler", "text": "Trato. Aquí tiene cincuenta pesos.", "text_de": "Abgemacht. Hier sind fünfzig Pesos."},
+      {"role": "vendor", "text": "Y acá su vuelto, veintiocho pesos.", "text_de": "Und hier Ihr Wechselgeld, achtundzwanzig Pesos."},
+      {"role": "traveler", "text": "Gracias. ¿Son frescos los mangos?", "text_de": "Danke. Sind die Mangos frisch?"},
+      {"role": "vendor", "text": "Llegaron esta mañana, fresquísimos.", "text_de": "Sie sind heute Morgen gekommen, ganz frisch."}
     ],
     "cultural_notes": [
       "Verhandeln ist normal und erwartet — einen Versuch lohnt immer",
@@ -186,19 +220,27 @@
       "¿Qué bus me lleva a...?",
       "¿Me lo puede mostrar en el mapa?"
     ],
+    "key_phrases_de": [
+      "Entschuldigung, können Sie mir sagen, wie ich zu ... komme?",
+      "Ist es weit von hier?",
+      "Wie viele Straßenblöcke sind es?",
+      "Kann ich zu Fuß gehen?",
+      "Welcher Bus bringt mich nach ...?",
+      "Können Sie es mir auf der Karte zeigen?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Perdone, ¿sabe cómo llego al Museo de Arte?"},
-      {"role": "local", "text": "Sí, claro. No está muy lejos, como unas diez cuadras."},
-      {"role": "traveler", "text": "¿Puedo ir caminando?"},
-      {"role": "local", "text": "Sí, unos veinte minutos a pie. Siga todo recto por esta calle hasta llegar a la plaza."},
-      {"role": "traveler", "text": "¿La plaza San Martín?"},
-      {"role": "local", "text": "Exacto. Cuando llegue a la plaza, doble a la derecha."},
-      {"role": "traveler", "text": "¿A la derecha, entendido. ¿Y luego?"},
-      {"role": "local", "text": "Camine dos cuadras más y va a ver el museo a la izquierda, frente a un parque."},
-      {"role": "traveler", "text": "Perfecto. ¿Está abierto los lunes?"},
-      {"role": "local", "text": "Creo que sí, pero no estoy seguro del horario. Mejor que busque en internet."},
-      {"role": "traveler", "text": "Muchas gracias por su ayuda."},
-      {"role": "local", "text": "De nada. Buen paseo."}
+      {"role": "traveler", "text": "Perdone, ¿sabe cómo llego al Museo de Arte?", "text_de": "Entschuldigung, wissen Sie, wie ich zum Kunstmuseum komme?"},
+      {"role": "local", "text": "Sí, claro. No está muy lejos, como unas diez cuadras.", "text_de": "Ja, klar. Es ist nicht sehr weit, etwa zehn Blocks."},
+      {"role": "traveler", "text": "¿Puedo ir caminando?", "text_de": "Kann ich zu Fuß gehen?"},
+      {"role": "local", "text": "Sí, unos veinte minutos a pie. Siga todo recto por esta calle hasta llegar a la plaza.", "text_de": "Ja, etwa zwanzig Minuten zu Fuß. Gehen Sie diese Straße immer geradeaus bis zum Platz."},
+      {"role": "traveler", "text": "¿La plaza San Martín?", "text_de": "Zur Plaza San Martín?"},
+      {"role": "local", "text": "Exacto. Cuando llegue a la plaza, doble a la derecha.", "text_de": "Genau. Wenn Sie am Platz ankommen, biegen Sie rechts ab."},
+      {"role": "traveler", "text": "A la derecha, entendido. ¿Y luego?", "text_de": "Rechts, verstanden. Und dann?"},
+      {"role": "local", "text": "Camine dos cuadras más y va a ver el museo a la izquierda, frente a un parque.", "text_de": "Gehen Sie noch zwei Blocks weiter, dann sehen Sie links das Museum, gegenüber von einem Park."},
+      {"role": "traveler", "text": "Perfecto. ¿Está abierto los lunes?", "text_de": "Perfekt. Ist es montags geöffnet?"},
+      {"role": "local", "text": "Creo que sí, pero no estoy seguro del horario. Mejor que busque en internet.", "text_de": "Ich glaube schon, aber bei den Öffnungszeiten bin ich nicht sicher. Schauen Sie am besten im Internet nach."},
+      {"role": "traveler", "text": "Muchas gracias por su ayuda.", "text_de": "Vielen Dank für Ihre Hilfe."},
+      {"role": "local", "text": "De nada. Buen paseo.", "text_de": "Gern geschehen. Schönen Spaziergang."}
     ],
     "cultural_notes": [
       "Südamerikaner helfen sehr gerne beim Wegbeschreiben — fragen kostet nichts",
@@ -229,6 +271,15 @@
       "Necesito ir a urgencias.",
       "¿Dónde está el hospital más cercano?"
     ],
+    "key_phrases_de": [
+      "Mir geht es nicht gut. Ich brauche einen Arzt.",
+      "Mir tut ... weh.",
+      "Ich habe Fieber / Übelkeit / Durchfall.",
+      "Ich bin allergisch gegen Penicillin.",
+      "Können Sie mir etwas gegen die Schmerzen geben?",
+      "Ich muss in die Notaufnahme.",
+      "Wo ist das nächste Krankenhaus?"
+    ],
     "body_parts": [
       {"es": "la cabeza", "de": "der Kopf"},
       {"es": "el estómago", "de": "der Magen"},
@@ -249,17 +300,17 @@
       {"es": "falta de aire", "de": "Atemnot"}
     ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Disculpe, no me siento bien. ¿Hay una farmacia cerca?"},
-      {"role": "pharmacist", "text": "Sí, aquí mismo. ¿Qué síntomas tiene?"},
-      {"role": "traveler", "text": "Me duele mucho el estómago desde anoche y tengo náuseas."},
-      {"role": "pharmacist", "text": "¿Tiene también diarrea o fiebre?"},
-      {"role": "traveler", "text": "Un poco de diarrea, pero no creo que tenga fiebre."},
-      {"role": "pharmacist", "text": "¿Comió algo que pudiera estar en mal estado?"},
-      {"role": "traveler", "text": "Puede ser, comí mariscos en la calle ayer."},
-      {"role": "pharmacist", "text": "Le voy a dar un antiespasmódico y sales de rehidratación. Tome mucho líquido."},
-      {"role": "traveler", "text": "¿Necesito ir al médico?"},
-      {"role": "pharmacist", "text": "Si en 24 horas no mejora o empeora, sí. ¿Es alérgico a algún medicamento?"},
-      {"role": "traveler", "text": "No, que yo sepa. ¿Cuánto es?"}
+      {"role": "traveler", "text": "Disculpe, no me siento bien. ¿Hay una farmacia cerca?", "text_de": "Entschuldigung, mir geht es nicht gut. Gibt es hier in der Nähe eine Apotheke?"},
+      {"role": "pharmacist", "text": "Sí, aquí mismo. ¿Qué síntomas tiene?", "text_de": "Ja, direkt hier. Welche Symptome haben Sie?"},
+      {"role": "traveler", "text": "Me duele mucho el estómago desde anoche y tengo náuseas.", "text_de": "Mein Magen tut seit gestern Abend sehr weh, und mir ist übel."},
+      {"role": "pharmacist", "text": "¿Tiene también diarrea o fiebre?", "text_de": "Haben Sie auch Durchfall oder Fieber?"},
+      {"role": "traveler", "text": "Un poco de diarrea, pero no creo que tenga fiebre.", "text_de": "Ein bisschen Durchfall, aber ich glaube nicht, dass ich Fieber habe."},
+      {"role": "pharmacist", "text": "¿Comió algo que pudiera estar en mal estado?", "text_de": "Haben Sie etwas gegessen, das schlecht gewesen sein könnte?"},
+      {"role": "traveler", "text": "Puede ser, comí mariscos en la calle ayer.", "text_de": "Kann sein, ich habe gestern an der Straße Meeresfrüchte gegessen."},
+      {"role": "pharmacist", "text": "Le voy a dar un antiespasmódico y sales de rehidratación. Tome mucho líquido.", "text_de": "Ich gebe Ihnen ein krampflösendes Mittel und Elektrolytlösung. Trinken Sie viel Flüssigkeit."},
+      {"role": "traveler", "text": "¿Necesito ir al médico?", "text_de": "Muss ich zum Arzt?"},
+      {"role": "pharmacist", "text": "Si en 24 horas no mejora o empeora, sí. ¿Es alérgico a algún medicamento?", "text_de": "Wenn es in 24 Stunden nicht besser wird oder schlimmer wird, ja. Sind Sie gegen irgendein Medikament allergisch?"},
+      {"role": "traveler", "text": "No, que yo sepa. ¿Cuánto es?", "text_de": "Nein, soweit ich weiß nicht. Wie viel macht das?"}
     ],
     "emergency_numbers": {
       "general_note": "Notrufnummern variieren je nach Land",
@@ -291,18 +342,26 @@
       "Deje aquí, por favor.",
       "¿Cuánto tiempo demora?"
     ],
+    "key_phrases_de": [
+      "Wie viel kostet es bis ...?",
+      "Können Sie das Taxameter einschalten?",
+      "Ich fahre nach ..., bitte.",
+      "Können Sie mir eine Quittung geben?",
+      "Lassen Sie mich hier raus, bitte.",
+      "Wie lange dauert es?"
+    ],
     "sample_dialogue": [
-      {"role": "traveler", "text": "Hola. ¿Me lleva al aeropuerto internacional?"},
-      {"role": "driver", "text": "Sí, claro. ¿A cuál? ¿Jorge Chávez?"},
-      {"role": "traveler", "text": "Sí, ese. ¿Cuánto me cobra?"},
-      {"role": "driver", "text": "Ochenta soles."},
-      {"role": "traveler", "text": "Un poco caro, ¿no? ¿Me puede hacer un precio?"},
-      {"role": "driver", "text": "Setenta y cinco, con el equipaje incluido."},
-      {"role": "traveler", "text": "De acuerdo. ¿Cuánto tiempo demora?"},
-      {"role": "driver", "text": "Unos cuarenta minutos si no hay tráfico."},
-      {"role": "traveler", "text": "Mi vuelo sale en dos horas. ¿Llegamos?"},
-      {"role": "driver", "text": "Sí, con tiempo de sobra."},
-      {"role": "traveler", "text": "¿Puede darme un recibo al final?"}
+      {"role": "traveler", "text": "Hola. ¿Me lleva al aeropuerto internacional?", "text_de": "Hallo. Fahren Sie mich zum internationalen Flughafen?"},
+      {"role": "driver", "text": "Sí, claro. ¿A cuál? ¿Jorge Chávez?", "text_de": "Ja, klar. Zu welchem? Jorge Chávez?"},
+      {"role": "traveler", "text": "Sí, ese. ¿Cuánto me cobra?", "text_de": "Ja, genau. Wie viel kostet es?"},
+      {"role": "driver", "text": "Ochenta soles.", "text_de": "Achtzig Soles."},
+      {"role": "traveler", "text": "Un poco caro, ¿no? ¿Me puede hacer un precio?", "text_de": "Ein bisschen teuer, oder? Können Sie mir einen Preis machen?"},
+      {"role": "driver", "text": "Setenta y cinco, con el equipaje incluido.", "text_de": "Fünfundsiebzig, mit Gepäck."},
+      {"role": "traveler", "text": "De acuerdo. ¿Cuánto tiempo demora?", "text_de": "Einverstanden. Wie lange dauert es?"},
+      {"role": "driver", "text": "Unos cuarenta minutos si no hay tráfico.", "text_de": "Etwa vierzig Minuten, wenn kein Verkehr ist."},
+      {"role": "traveler", "text": "Mi vuelo sale en dos horas. ¿Llegamos?", "text_de": "Mein Flug geht in zwei Stunden. Schaffen wir das?"},
+      {"role": "driver", "text": "Sí, con tiempo de sobra.", "text_de": "Ja, mit reichlich Zeit."},
+      {"role": "traveler", "text": "¿Puede darme un recibo al final?", "text_de": "Können Sie mir am Ende eine Quittung geben?"}
     ],
     "safety_tips": [
       "Immer App-basierte Dienste (Uber, InDriver, Beat) bevorzugen — sicherer und transparenter",
@@ -332,18 +391,26 @@
       "¿Qué hacés esta noche?",
       "¿Salimos a tomar algo?"
     ],
+    "key_phrases_de": [
+      "Woher bist du?",
+      "Wie lange reist du schon?",
+      "Welche Orte hast du besucht?",
+      "Was empfiehlst du in ...?",
+      "Was machst du heute Abend?",
+      "Gehen wir was trinken?"
+    ],
     "sample_dialogue": [
-      {"role": "local", "text": "Che, ¿de dónde sos? No sos argentino, ¿verdad?"},
-      {"role": "traveler", "text": "No, soy alemán. Soy de München. Me llamo Lukas."},
-      {"role": "local", "text": "¡Buenísimo! Yo soy Matías, soy de acá de Buenos Aires. ¿Cuánto tiempo estás?"},
-      {"role": "traveler", "text": "Tres semanas. Vine hace cinco días y después voy a Patagonia."},
-      {"role": "local", "text": "¡Qué buena onda! ¿Ya fuiste a La Boca?"},
-      {"role": "traveler", "text": "Sí, ayer. Estuvo muy copado. ¿Qué más me recomendás?"},
-      {"role": "local", "text": "Palermo es buenísimo para salir de noche. ¿Tenés planes esta noche?"},
-      {"role": "traveler", "text": "No, estoy libre. ¿Me mostrás algún lugar?"},
-      {"role": "local", "text": "Dale, te llevo a un bar de jazz en San Telmo. Muy buena onda el lugar."},
-      {"role": "traveler", "text": "¡Perfecto! Me encanta el jazz. ¿A qué hora quedamos?"},
-      {"role": "local", "text": "A las diez en la puerta de tu hostel. Acá la gente sale tarde."}
+      {"role": "local", "text": "Che, ¿de dónde sos? No sos argentino, ¿verdad?", "text_de": "Hey, woher bist du? Du bist kein Argentinier, oder?"},
+      {"role": "traveler", "text": "No, soy alemán. Soy de München. Me llamo Lukas.", "text_de": "Nein, ich bin Deutscher. Ich komme aus München. Ich heiße Lukas."},
+      {"role": "local", "text": "¡Buenísimo! Yo soy Matías, soy de acá de Buenos Aires. ¿Cuánto tiempo estás?", "text_de": "Super! Ich bin Matías, ich komme von hier, aus Buenos Aires. Wie lange bist du schon hier?"},
+      {"role": "traveler", "text": "Tres semanas. Vine hace cinco días y después voy a Patagonia.", "text_de": "Drei Wochen. Ich bin vor fünf Tagen angekommen und fahre danach nach Patagonien."},
+      {"role": "local", "text": "¡Qué buena onda! ¿Ya fuiste a La Boca?", "text_de": "Wie cool! Warst du schon in La Boca?"},
+      {"role": "traveler", "text": "Sí, ayer. Estuvo muy copado. ¿Qué más me recomendás?", "text_de": "Ja, gestern. Es war richtig gut. Was empfiehlst du mir noch?"},
+      {"role": "local", "text": "Palermo es buenísimo para salir de noche. ¿Tenés planes esta noche?", "text_de": "Palermo ist super zum Ausgehen am Abend. Hast du heute Abend schon was vor?"},
+      {"role": "traveler", "text": "No, estoy libre. ¿Me mostrás algún lugar?", "text_de": "Nein, ich habe frei. Zeigst du mir einen Ort?"},
+      {"role": "local", "text": "Dale, te llevo a un bar de jazz en San Telmo. Muy buena onda el lugar.", "text_de": "Klar, ich nehme dich mit in eine Jazzbar in San Telmo. Ein richtig toller Laden."},
+      {"role": "traveler", "text": "¡Perfecto! Me encanta el jazz. ¿A qué hora quedamos?", "text_de": "Perfekt! Ich liebe Jazz. Wann treffen wir uns?"},
+      {"role": "local", "text": "A las diez en la puerta de tu hostel. Acá la gente sale tarde.", "text_de": "Um zehn vor der Tür deines Hostels. Hier gehen die Leute spät aus."}
     ],
     "cultural_notes": [
       "Argentinier sind sehr offen und gesellig — Gespräche entstehen schnell",
@@ -355,6 +422,221 @@
       "Stell dich vor und erzähl von deiner Reise",
       "Frag nach Empfehlungen für Restaurants",
       "Verabrede dich für morgen"
+    ]
+  },
+  {
+    "id": "s009",
+    "title": "Refugio & Camping reservieren",
+    "icon": "🏕️",
+    "difficulty": 2,
+    "region": "patagonia",
+    "description": "Du willst im Nationalpark Torres del Paine ein Bett im Refugio oder einen Zeltplatz buchen. Du brauchst Verfügbarkeit, Nächte und Ausrüstung.",
+    "context": "Reservierungsschalter in Puerto Natales (Chile) — Refugios und Campings im Park müssen vorab gebucht werden",
+    "key_vocabulary": ["v525", "v526", "v527", "v528", "v529", "v531", "v535", "v536", "v558", "v128", "v102"],
+    "key_phrases": [
+      "Quisiera reservar una cama en el refugio.",
+      "¿Hay lugar para el sábado?",
+      "Para una persona, dos noches.",
+      "¿Se puede arrendar el saco de dormir?",
+      "¿Están incluidas las comidas?",
+      "¿Dónde puedo pagar la reserva?",
+      "¿Se puede acampar fuera del camping?"
+    ],
+    "key_phrases_de": [
+      "Ich möchte ein Bett im Refugio reservieren.",
+      "Ist am Samstag etwas frei?",
+      "Für eine Person, zwei Nächte.",
+      "Kann man den Schlafsack mieten?",
+      "Sind die Mahlzeiten inklusive?",
+      "Wo kann ich die Reservierung bezahlen?",
+      "Darf man außerhalb des Campingplatzes zelten?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Buenas tardes. Quisiera reservar una cama en el refugio para el próximo sábado.", "text_de": "Guten Tag. Ich möchte für kommenden Samstag ein Bett im Refugio reservieren."},
+      {"role": "agent", "text": "Buenas tardes. ¿Para cuántas personas y cuántas noches?", "text_de": "Guten Tag. Für wie viele Personen und wie viele Nächte?"},
+      {"role": "traveler", "text": "Para una persona, dos noches. ¿Hay lugar?", "text_de": "Für eine Person, zwei Nächte. Ist etwas frei?"},
+      {"role": "agent", "text": "Déjame revisar... Sí, queda una cama en una habitación compartida.", "text_de": "Lass mich nachsehen ... Ja, es ist noch ein Bett in einem Mehrbettzimmer frei."},
+      {"role": "traveler", "text": "Perfecto. ¿Tengo que llevar mi saco de dormir?", "text_de": "Perfekt. Muss ich meinen Schlafsack mitbringen?"},
+      {"role": "agent", "text": "Puedes traer el tuyo o arrendarlo allá, pero te recomiendo confirmarlo al reservar.", "text_de": "Du kannst deinen eigenen mitbringen oder ihn dort mieten, aber ich empfehle, das bei der Buchung zu bestätigen."},
+      {"role": "traveler", "text": "¿Están incluidas las comidas?", "text_de": "Sind die Mahlzeiten inklusive?"},
+      {"role": "agent", "text": "Depende de lo que elijas: solo la cama o con alimentación.", "text_de": "Das hängt davon ab, was du wählst: nur das Bett oder mit Verpflegung."},
+      {"role": "traveler", "text": "Entonces solo la cama. Voy a llevar mi propia cocinilla y mi carpa por si acaso.", "text_de": "Dann nur das Bett. Ich nehme sicherheitshalber meinen eigenen Kocher und mein Zelt mit."},
+      {"role": "agent", "text": "La carpa solo la puedes armar en los campings autorizados, ¿ya?", "text_de": "Das Zelt darfst du nur auf den zugelassenen Campingplätzen aufbauen, ja?"},
+      {"role": "traveler", "text": "Entendido. ¿Cómo confirmo la reserva?", "text_de": "Verstanden. Wie bestätige ich die Reservierung?"},
+      {"role": "agent", "text": "Te mando un correo con los datos y el pago. Sin eso, no se asegura la cama.", "text_de": "Ich schicke dir eine E-Mail mit den Angaben und der Zahlung. Ohne das ist das Bett nicht sicher."}
+    ],
+    "cultural_notes": [
+      "Im Nationalpark Torres del Paine müssen Refugios und Campings vorab reserviert werden — spontan vor Ort ist oft nichts mehr frei",
+      "Zelten ist nur auf ausgewiesenen Campingplätzen erlaubt, offenes Feuer ist im Park verboten",
+      "'Arrendar' = mieten (typisch chilenisch, in Spanien eher 'alquilar'); 'cocinilla' = kleiner Campingkocher",
+      "Das Wetter wechselt schnell, der Wind ist stark — plane Puffertage ein"
+    ],
+    "practice_prompts": [
+      "Reserviere zwei Nächte im Refugio und frag nach den Mahlzeiten",
+      "Dein Wunschtermin ist ausgebucht — frag nach einem anderen Tag",
+      "Frag, ob du einen Zeltplatz für drei Personen bekommst"
+    ]
+  },
+  {
+    "id": "s010",
+    "title": "Bus nach El Chaltén",
+    "icon": "🚌",
+    "difficulty": 2,
+    "region": "patagonia",
+    "description": "Du bist im Terminal von El Calafate (Argentinien) und willst ein Ticket nach El Chaltén kaufen. Hier wird mit Voseo gesprochen.",
+    "context": "Terminal de ómnibus El Calafate — der Ausgangspunkt für die Wanderungen im Fitz-Roy-Gebiet",
+    "key_vocabulary": ["v032", "v033", "v034", "v035", "v041", "v103", "v104", "v549", "v531", "v555"],
+    "key_phrases": [
+      "¿A qué hora sale el próximo bus para El Chaltén?",
+      "Quiero un pasaje de ida y vuelta.",
+      "¿Cuánto sale?",
+      "¿Cuánto tarda el viaje?",
+      "¿Puedo dejar la mochila en la bodega?",
+      "¿Desde qué andén sale?",
+      "¿Puedo pagar con tarjeta?"
+    ],
+    "key_phrases_de": [
+      "Wann fährt der nächste Bus nach El Chaltén?",
+      "Ich möchte ein Hin- und Rückfahrticket.",
+      "Wie viel kostet es?",
+      "Wie lange dauert die Fahrt?",
+      "Kann ich den Rucksack im Gepäckraum lassen?",
+      "Von welchem Bussteig fährt er ab?",
+      "Kann ich mit Karte bezahlen?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Hola, buenas tardes. ¿A qué hora sale el próximo bus para El Chaltén?", "text_de": "Hallo, guten Tag. Wann fährt der nächste Bus nach El Chaltén?"},
+      {"role": "agent", "text": "Hola. Hay uno a las ocho y otro a las diez y media. ¿Cuál querés?", "text_de": "Hallo. Es gibt einen um acht und einen um halb elf. Welchen möchtest du?"},
+      {"role": "traveler", "text": "El de las ocho. ¿Cuánto sale el pasaje de ida y vuelta?", "text_de": "Den um acht. Wie viel kostet das Hin- und Rückfahrticket?"},
+      {"role": "agent", "text": "Sale cincuenta mil pesos, pero tenés que elegir ahora la fecha de vuelta.", "text_de": "Es kostet fünfzigtausend Pesos, aber du musst jetzt das Rückreisedatum wählen."},
+      {"role": "traveler", "text": "Todavía no sé cuántos días me quedo. ¿Puedo comprar solo la ida?", "text_de": "Ich weiß noch nicht, wie viele Tage ich bleibe. Kann ich nur die Hinfahrt kaufen?"},
+      {"role": "agent", "text": "Sí, claro. La vuelta la sacás allá, en la terminal de El Chaltén.", "text_de": "Ja, klar. Die Rückfahrt kaufst du dort, am Terminal in El Chaltén."},
+      {"role": "traveler", "text": "Perfecto, entonces solo ida. ¿Cuánto tarda el viaje?", "text_de": "Perfekt, dann nur hin. Wie lange dauert die Fahrt?"},
+      {"role": "agent", "text": "Más o menos tres horas, si el camino está bien.", "text_de": "Ungefähr drei Stunden, wenn die Straße gut ist."},
+      {"role": "traveler", "text": "¿Puedo pagar con tarjeta?", "text_de": "Kann ich mit Karte bezahlen?"},
+      {"role": "agent", "text": "Sí, con tarjeta también. Poné la mochila grande en la bodega, abajo.", "text_de": "Ja, auch mit Karte. Leg den großen Rucksack unten ins Gepäckraum."},
+      {"role": "traveler", "text": "Genial. ¿De qué andén sale?", "text_de": "Super. Von welchem Bussteig fährt er ab?"},
+      {"role": "agent", "text": "Del número cuatro. Estate veinte minutos antes, ¿dale?", "text_de": "Von Nummer vier. Sei zwanzig Minuten vorher da, ja?"}
+    ],
+    "cultural_notes": [
+      "In Argentinien gilt das Voseo: 'vos querés', 'tenés', 'sacás', Imperative 'poné', 'salí' (tú: 'pon', 'sal')",
+      "El Chaltén gilt als 'Capital Nacional del Trekking'; die Busse ab El Calafate sind in der Hauptsaison oft früh ausgebucht",
+      "Von Puerto Natales (Chile) nach El Calafate fährt man per Bus über die Grenze — das ist eine eigene Fahrt mit Grenzkontrolle",
+      "Im Terminal oft Bargeld in Pesos dabeihaben; 'pasaje' ist in Argentinien das übliche Wort für Fahrkarte"
+    ],
+    "practice_prompts": [
+      "Kauf ein Ticket nach El Chaltén für übermorgen früh",
+      "Frag, ob es einen späteren Bus gibt",
+      "Dein Bus ist voll — frag nach einer Alternative"
+    ]
+  },
+  {
+    "id": "s011",
+    "title": "Grenzübergang Chile ↔ Argentinien",
+    "icon": "🛂",
+    "difficulty": 3,
+    "region": "patagonia",
+    "description": "Du reist mit dem Bus von Argentinien nach Chile ein. Du musst Reisepass, Reisezweck und mitgeführte Lebensmittel angeben.",
+    "context": "Control fronterizo — der SAG (Servicio Agrícola y Ganadero) kontrolliert Lebensmittel bei der Einreise nach Chile",
+    "key_vocabulary": ["v545", "v546", "v039", "v040", "v103", "v158", "v531"],
+    "key_phrases": [
+      "Aquí tiene mi pasaporte.",
+      "Vengo por turismo.",
+      "Voy a estar diez días en Chile.",
+      "No llevo frutas ni carne.",
+      "¿Tengo que declarar esto?",
+      "¿Dónde dejo esto?",
+      "¿Puedo seguir?"
+    ],
+    "key_phrases_de": [
+      "Hier ist mein Reisepass.",
+      "Ich komme als Tourist.",
+      "Ich bleibe zehn Tage in Chile.",
+      "Ich habe weder Obst noch Fleisch dabei.",
+      "Muss ich das angeben?",
+      "Wo kann ich das lassen?",
+      "Darf ich weiterfahren?"
+    ],
+    "sample_dialogue": [
+      {"role": "agent", "text": "Buenas tardes. Su pasaporte, por favor.", "text_de": "Guten Tag. Ihren Reisepass, bitte."},
+      {"role": "traveler", "text": "Buenas tardes. Aquí tiene.", "text_de": "Guten Tag. Hier bitte."},
+      {"role": "agent", "text": "¿Cuál es el motivo de su viaje?", "text_de": "Was ist der Grund Ihrer Reise?"},
+      {"role": "traveler", "text": "Vengo por turismo. Voy a estar diez días en Chile.", "text_de": "Ich komme als Tourist. Ich bleibe zehn Tage in Chile."},
+      {"role": "agent", "text": "Muy bien. Le pongo el sello. ¿Lleva frutas, verduras, carne, lácteos o miel?", "text_de": "Sehr gut. Ich stempele Ihnen den Pass. Haben Sie Obst, Gemüse, Fleisch, Milchprodukte oder Honig dabei?"},
+      {"role": "traveler", "text": "Tengo una manzana y un paquete de queso en la mochila. ¿Tengo que declararlos?", "text_de": "Ich habe einen Apfel und ein Päckchen Käse im Rucksack. Muss ich sie angeben?"},
+      {"role": "agent", "text": "Sí, todo eso hay que declararlo. No pueden entrar a Chile.", "text_de": "Ja, das muss man alles angeben. Das darf nicht nach Chile eingeführt werden."},
+      {"role": "traveler", "text": "Ah, no sabía. ¿Dónde lo dejo?", "text_de": "Ach, das wusste ich nicht. Wo kann ich es lassen?"},
+      {"role": "agent", "text": "Allí, en el basurero del SAG. Es mejor declararlo que esconderlo, porque si lo encuentran en el control, hay multa.", "text_de": "Dort im SAG-Abfalleimer. Es ist besser, es anzugeben, als es zu verstecken, denn wenn sie es bei der Kontrolle finden, gibt es eine Strafe."},
+      {"role": "traveler", "text": "Entiendo. Aquí está todo. No llevo nada más.", "text_de": "Verstehe. Hier ist alles. Ich habe nichts weiter dabei."},
+      {"role": "agent", "text": "Gracias. Ahora pasa el equipaje por el escáner, por favor.", "text_de": "Danke. Jetzt schicken Sie bitte das Gepäck durch den Scanner."},
+      {"role": "traveler", "text": "Listo. ¿Puedo seguir?", "text_de": "Fertig. Darf ich weiterfahren?"},
+      {"role": "agent", "text": "Sí, todo en orden. Bienvenido a Chile.", "text_de": "Ja, alles in Ordnung. Willkommen in Chile."}
+    ],
+    "cultural_notes": [
+      "Der SAG kontrolliert bei der Einreise nach Chile: Frische Lebensmittel wie Obst, Gemüse, Fleisch und Milchprodukte dürfen nicht eingeführt werden — im Zweifel deklarieren",
+      "Wer etwas Verbotenes verschweigt und erwischt wird, riskiert eine Geldstrafe; abgeben ist immer besser",
+      "Bei Busfahrten steigen meist alle Fahrgäste mit Handgepäck für die Kontrolle aus — plane Zeit ein",
+      "Iss deinen Proviant vor der Grenze auf oder kauf in Chile frisch nach"
+    ],
+    "practice_prompts": [
+      "Erkläre, dass du als Tourist für fünf Tage einreist",
+      "Der Beamte fragt nach Lebensmitteln — du hast Nüsse und Schokolade dabei",
+      "Frag, ob du etwas mitnehmen darfst, das du nicht angegeben hast"
+    ]
+  },
+  {
+    "id": "s012",
+    "title": "Beim Guardaparque: Wetter & Wege",
+    "icon": "🥾",
+    "difficulty": 2,
+    "region": "patagonia",
+    "description": "Du bist im Besucherzentrum von El Chaltén und fragst den Guardaparque nach Wetter, Wegen und Sicherheit für deine Tageswanderung.",
+    "context": "Centro de visitantes im Parque Nacional Los Glaciares (Argentinien) — der Guardaparque hilft bei Wegen und Wetter",
+    "key_vocabulary": ["v525", "v530", "v531", "v533", "v534", "v536", "v537", "v538", "v539", "v540", "v541", "v542", "v543", "v544"],
+    "key_phrases": [
+      "¿Cómo va a estar el tiempo mañana?",
+      "¿Cuánto falta para llegar a la laguna?",
+      "¿El sendero está bien marcado?",
+      "¿Hay agua potable en el camino?",
+      "¿Hace mucho viento arriba?",
+      "¿Hay que registrarse antes de salir?",
+      "¿A qué hora conviene salir?"
+    ],
+    "key_phrases_de": [
+      "Wie wird das Wetter morgen?",
+      "Wie weit ist es noch bis zur Lagune?",
+      "Ist der Weg gut markiert?",
+      "Gibt es unterwegs Trinkwasser?",
+      "Ist es oben sehr windig?",
+      "Muss man sich vor dem Aufbruch anmelden?",
+      "Wann sollte man losgehen?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Hola, buen día. ¿Cómo va a estar el tiempo mañana?", "text_de": "Hallo, guten Morgen. Wie wird das Wetter morgen?"},
+      {"role": "agent", "text": "Buen día. Mañana va a estar despejado a la mañana, pero a la tarde se levanta viento fuerte.", "text_de": "Guten Morgen. Morgen wird es vormittags klar, aber nachmittags kommt starker Wind auf."},
+      {"role": "traveler", "text": "Quiero ir a la Laguna de los Tres. ¿Cuánto tarda?", "text_de": "Ich möchte zur Laguna de los Tres. Wie lange dauert das?"},
+      {"role": "agent", "text": "Entre ocho y diez horas ida y vuelta, depende de tu ritmo. Salí temprano.", "text_de": "Zwischen acht und zehn Stunden hin und zurück, je nach Tempo. Brich früh auf."},
+      {"role": "traveler", "text": "¿El sendero está bien marcado?", "text_de": "Ist der Weg gut markiert?"},
+      {"role": "agent", "text": "Sí, está bien marcado. La última subida es muy empinada, así que tomate tu tiempo.", "text_de": "Ja, er ist gut markiert. Der letzte Anstieg ist sehr steil, also lass dir Zeit."},
+      {"role": "traveler", "text": "¿Hay agua potable en el camino?", "text_de": "Gibt es unterwegs Trinkwasser?"},
+      {"role": "agent", "text": "En algunos arroyos podés cargar agua, pero llevá siempre una botella de reserva.", "text_de": "An manchen Bächen kannst du Wasser auffüllen, aber nimm immer eine Reserveflasche mit."},
+      {"role": "traveler", "text": "¿Tengo que registrarme antes de salir?", "text_de": "Muss ich mich vor dem Aufbruch anmelden?"},
+      {"role": "agent", "text": "Sí, anotate acá en el libro con tu nombre y a qué hora salís.", "text_de": "Ja, trag dich hier im Buch mit deinem Namen und der Abmarschzeit ein."},
+      {"role": "traveler", "text": "Perfecto. ¿Qué me recomendás llevar?", "text_de": "Perfekt. Was empfiehlst du mir mitzunehmen?"},
+      {"role": "agent", "text": "Abrigo, campera impermeable y bastones si tenés. El clima cambia rápido.", "text_de": "Warme Kleidung, eine wasserdichte Jacke und Stöcke, wenn du welche hast. Das Wetter ändert sich schnell."},
+      {"role": "traveler", "text": "Muchas gracias por la ayuda.", "text_de": "Vielen Dank für die Hilfe."},
+      {"role": "agent", "text": "De nada. ¡Que disfrutes el camino!", "text_de": "Gern geschehen. Viel Freude auf dem Weg!"}
+    ],
+    "cultural_notes": [
+      "Im argentinischen Spanisch gilt das Voseo: 'podés', 'tenés', Imperative wie 'salí', 'llevá', 'anotate'",
+      "Das Wetter in Patagonien ändert sich innerhalb von Stunden — Wind und Kälte immer einplanen, auch bei Sonne",
+      "Gib Wegzeit und Rückkehr den Guardaparques bekannt, wenn sie danach fragen — das dient deiner Sicherheit",
+      "'Campera' = Jacke (Argentinien), in Chile sagt man eher 'chaqueta'"
+    ],
+    "practice_prompts": [
+      "Frag nach dem Wetter für übermorgen und ob die Wege offen sind",
+      "Frag, wie lange der Weg zum Aussichtspunkt dauert",
+      "Du bist spät dran — frag, ob du noch aufbrechen solltest"
     ]
   }
 ]

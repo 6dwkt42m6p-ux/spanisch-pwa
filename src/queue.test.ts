@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildQueue, requeue } from './queue'
+import { buildQueue, requeue, seenCount } from './queue'
 import type { Vocab } from './types'
 
 const v = (id: string, difficulty = 1, category = 'Grundlagen') =>
@@ -31,6 +31,36 @@ describe('buildQueue', () => {
   it('Filter Basics schließt difficulty 2 außerhalb Patagonien aus', () => {
     const q = buildQueue([v('a', 2), v('b', 2, 'Patagonien'), v('c', 1)], {}, '__basics__', T)
     expect(q.map((x) => x.id).sort()).toEqual(['b', 'c'])
+  })
+  it('Basics: Prioritätswörter (essential/Patagonien) zuerst, im Reißverschluss', () => {
+    const mk = (id: string, cat: string, tags: string[] = []) => ({ ...v(id, 1, cat), tags })
+    const vocab = [mk('a', 'Grundlagen', ['essential']), mk('b', 'Grundlagen', ['essential']), mk('c', 'Zahlen'),
+                   mk('p1', 'Patagonien'), mk('p2', 'Patagonien')]
+    expect(buildQueue(vocab, {}, '__basics__', T).map((x) => x.id)).toEqual(['a', 'p1', 'b', 'p2', 'c'])
+  })
+  it('Basics: Überhang einer Gruppe folgt, DE->ES-Neukarten bleiben vorn', () => {
+    const mk = (id: string, cat: string, tags: string[] = []) => ({ ...v(id, 1, cat), tags })
+    const vocab = [mk('a', 'Grundlagen', ['essential']), mk('p1', 'Patagonien'), mk('p2', 'Patagonien'), mk('c', 'Zahlen')]
+    const cards = { 'c|es_de': { ease: 2.5, interval: 1, reps: 1, next: '2026-11-05', last: 3 } }
+    expect(buildQueue(vocab, cards, '__basics__', T).map((x) => `${x.id}|${x.dir}`))
+      .toEqual(['c|de_es', 'a|es_de', 'p1|es_de', 'p2|es_de'])
+  })
+  it('Filter Alle: Dateireihenfolge unverändert', () => {
+    const vocab = [v('x'), { ...v('y', 1, 'Patagonien') }, v('z')]
+    expect(buildQueue(vocab, {}, '__all__', T).map((x) => x.id)).toEqual(['x', 'y', 'z'])
+  })
+})
+
+describe('seenCount', () => {
+  it('zählt Wörter im Filter mit existierender ES->DE-Karte', () => {
+    const vocab = [v('a'), v('b'), v('c'), v('d', 2)]
+    const cards = {
+      'a|es_de': { ease: 2.5, interval: 1, reps: 1, next: T, last: 3 },
+      'b|de_es': { ease: 2.5, interval: 1, reps: 1, next: T, last: 3 },
+      'd|es_de': { ease: 2.5, interval: 1, reps: 1, next: T, last: 3 },
+    }
+    expect(seenCount(vocab, cards, '__basics__')).toEqual({ seen: 1, total: 3 })
+    expect(seenCount(vocab, cards, '__all__')).toEqual({ seen: 2, total: 4 })
   })
 })
 

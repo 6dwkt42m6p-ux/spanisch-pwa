@@ -1,0 +1,360 @@
+[
+  {
+    "id": "s001",
+    "title": "Am Busbahnhof",
+    "icon": "🚌",
+    "difficulty": 1,
+    "description": "Du bist am Busbahnhof und willst ein Ticket kaufen. Du brauchst Abfahrtszeiten, Preise und deinen Platz.",
+    "context": "Terminal de buses — eine der häufigsten Situationen auf Südamerika-Reisen",
+    "key_vocabulary": ["v032", "v033", "v034", "v035", "v041", "v103", "v104"],
+    "key_phrases": [
+      "¿A qué hora sale el próximo bus para...?",
+      "Quisiera un boleto para... por favor.",
+      "¿Cuánto cuesta el pasaje a...?",
+      "¿Cuánto dura el viaje?",
+      "¿Está incluido el maletero?",
+      "¿Hay asientos disponibles?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Buenas tardes. Quisiera un boleto para Cusco, por favor."},
+      {"role": "agent", "text": "¿Para cuándo lo quiere? ¿Hoy o mañana?"},
+      {"role": "traveler", "text": "Para mañana en la mañana, si es posible."},
+      {"role": "agent", "text": "Hay un bus a las siete y a las nueve. ¿Cuál prefiere?"},
+      {"role": "traveler", "text": "El de las siete, por favor. ¿Cuánto cuesta?"},
+      {"role": "agent", "text": "Son ochenta soles. ¿Va solo o acompañado?"},
+      {"role": "traveler", "text": "Solo. ¿Cuánto dura el viaje?"},
+      {"role": "agent", "text": "Aproximadamente seis horas, dependiendo del tráfico."},
+      {"role": "traveler", "text": "Perfecto. ¿Acepta tarjeta?"},
+      {"role": "agent", "text": "Solo efectivo, señor. Lo siento."},
+      {"role": "traveler", "text": "Está bien. Aquí tiene. ¿El equipaje está incluido?"},
+      {"role": "agent", "text": "Sí, una maleta en el maletero va incluida."}
+    ],
+    "cultural_notes": [
+      "Busse in Südamerika sind oft besser ausgestattet als erwartet — 'cama' (Liegesitz) und 'semi-cama' lohnen sich für lange Strecken",
+      "Immer rechtzeitig da sein: 30 Minuten vor Abfahrt empfohlen",
+      "Bargeld griffbereit haben — viele Terminals akzeptieren keine Karten",
+      "Gepäck kann oft gegen Aufpreis oder kostenlos mitgenommen werden"
+    ],
+    "practice_prompts": [
+      "Kauf ein Ticket nach Buenos Aires für morgen früh",
+      "Frag nach dem günstigsten Ticket",
+      "Dein Bus hat Verspätung — frag was passiert ist"
+    ]
+  },
+  {
+    "id": "s002",
+    "title": "Im Restaurant bestellen",
+    "icon": "🍽️",
+    "difficulty": 1,
+    "description": "Du gehst in ein lokales Restaurant. Du schaust die Karte an, bestellst, fragst nach Zutaten und bezahlst.",
+    "context": "Restaurants — täglich relevante Situation, auch für Dietary Restrictions",
+    "key_vocabulary": ["v051", "v052", "v053", "v054", "v055", "v056", "v057", "v058", "v059", "v063", "v064"],
+    "key_phrases": [
+      "Una mesa para dos, por favor.",
+      "¿Me puede traer la carta?",
+      "Quisiera pedir el plato del día.",
+      "¿Qué es este plato?",
+      "¿Viene con algo picante?",
+      "La cuenta, por favor.",
+      "¿Está todo incluido el servicio?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Buenas noches. ¿Tienen mesa para dos personas?"},
+      {"role": "waiter", "text": "Sí, claro. Por aquí, por favor. ¿Quieren ver la carta?"},
+      {"role": "traveler", "text": "Sí, gracias. ¿Cuál es el plato del día?"},
+      {"role": "waiter", "text": "Hoy tenemos ceviche de camarón y lomo saltado."},
+      {"role": "traveler", "text": "¿El lomo saltado es muy picante?"},
+      {"role": "waiter", "text": "No mucho, pero lo podemos preparar sin picante si prefieren."},
+      {"role": "traveler", "text": "Perfecto. Quisiera el lomo saltado, por favor."},
+      {"role": "waiter", "text": "¿Y para tomar?"},
+      {"role": "traveler", "text": "Un agua sin gas y una cerveza, por favor."},
+      {"role": "waiter", "text": "Enseguida."},
+      {"role": "traveler", "text": "(After eating) Estuvo muy rico. ¿Me puede traer la cuenta?"},
+      {"role": "waiter", "text": "Por supuesto. ¿Fue todo bien?"},
+      {"role": "traveler", "text": "Excelente, muchas gracias. ¿Acepta tarjeta?"}
+    ],
+    "cultural_notes": [
+      "'Plato del día' ist oft das beste Preis-Leistungs-Verhältnis — meist ein 2-3 Gänge Menü zu einem Festpreis",
+      "Trinkgeld ist nicht überall üblich, aber immer willkommen (10% ist gut)",
+      "In Peru: Ceviche ist ein Muss. In Argentinien: Asado. In Kolumbien: Bandeja paisa",
+      "Das Bestellen direkt vom Kellner dauert manchmal länger — Geduld ist wichtig"
+    ],
+    "practice_prompts": [
+      "Du bist Vegetarier — frag nach vegetarischen Optionen",
+      "Du hast eine Glutenallergie — erkläre das dem Kellner",
+      "Die Rechnung scheint falsch zu sein — beschwere dich höflich"
+    ]
+  },
+  {
+    "id": "s003",
+    "title": "Im Hostel einchecken",
+    "icon": "🏨",
+    "difficulty": 1,
+    "description": "Du checkst in ein Hostel oder Hotel ein. Zimmer, Ausstattung, Preise und Services klären.",
+    "context": "Check-in — erste Interaktion nach langer Reise, muss gut funktionieren",
+    "key_vocabulary": ["v043", "v044", "v045", "v046", "v047", "v048", "v049", "v050", "v102"],
+    "key_phrases": [
+      "Tengo una reserva a nombre de...",
+      "¿Tiene habitaciones disponibles?",
+      "¿Cuánto cuesta por noche?",
+      "¿Está incluido el desayuno?",
+      "¿El baño es compartido o privado?",
+      "¿A qué hora es el check-out?",
+      "¿Hay wifi?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Buenas tardes. Tengo una reserva a nombre de Lukas Weber."},
+      {"role": "receptionist", "text": "Un momento... sí, lo tenemos. Una habitación individual para dos noches."},
+      {"role": "traveler", "text": "Correcto. ¿El baño es privado o compartido?"},
+      {"role": "receptionist", "text": "Compartido, en el corredor. ¿Le parece bien?"},
+      {"role": "traveler", "text": "Sí, está bien. ¿A qué hora es el check-out?"},
+      {"role": "receptionist", "text": "A las once de la mañana. Si necesita salida más tarde, lo podemos arreglar por un costo extra."},
+      {"role": "traveler", "text": "Entendido. ¿Cuál es la clave del wifi?"},
+      {"role": "receptionist", "text": "La contraseña está en este papel. ¿Necesita guardar su equipaje antes de entrar?"},
+      {"role": "traveler", "text": "Sí, tengo una mochila grande. ¿Hay casilleros?"},
+      {"role": "receptionist", "text": "Sí, están en la sala común. Aquí tiene la llave de su habitación."},
+      {"role": "traveler", "text": "Muchas gracias. ¿Está incluido el desayuno?"},
+      {"role": "receptionist", "text": "No, el desayuno no está incluido. Pero hay un mercado muy bueno a una cuadra."}
+    ],
+    "cultural_notes": [
+      "In Südamerika sind Hostels oft ausgezeichnet — nicht nur für Backpacker",
+      "Trinkwasser ist nicht überall aus dem Hahn trinkbar — immer fragen: '¿El agua del grifo es potable?'",
+      "Kassenzettel/Reservierungsnummer immer aufbewahren",
+      "In manchen Ländern ist eine Kopie des Reisepasses beim Check-in Pflicht"
+    ],
+    "practice_prompts": [
+      "Du hast keine Reservierung — frag nach einem freien Zimmer",
+      "Das Zimmer ist zu laut — bitte um ein anderes",
+      "Du musst später auschecken — verhandle das"
+    ]
+  },
+  {
+    "id": "s004",
+    "title": "Auf dem Markt einkaufen",
+    "icon": "🛒",
+    "difficulty": 2,
+    "description": "Du bist auf einem lokalen Markt — Früchte kaufen, um Preise verhandeln, Wechselgeld erhalten.",
+    "context": "Märkte sind das Herzstück des südamerikanischen Alltags — kulturell und kulinarisch",
+    "key_vocabulary": ["v065", "v066", "v067", "v068", "v069", "v017", "v024", "v025"],
+    "key_phrases": [
+      "¿A cómo están las...? / ¿Cuánto cuestan las...?",
+      "¿Me puede dar un kilo de...?",
+      "¿Tiene algo más maduro / fresco?",
+      "Está muy caro. ¿Me hace un precio?",
+      "¿Cuánto es todo junto?",
+      "¿Me da el vuelto, por favor?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Buenas. ¿A cómo están los mangos?"},
+      {"role": "vendor", "text": "Tres por diez pesos, señor."},
+      {"role": "traveler", "text": "¿Y las papayas?"},
+      {"role": "vendor", "text": "La papaya grande está a veinte, la pequeña a doce."},
+      {"role": "traveler", "text": "Deme tres mangos y media papaya pequeña, por favor."},
+      {"role": "vendor", "text": "Está bien. Son veinticinco pesos todo junto."},
+      {"role": "traveler", "text": "¿Me puede hacer un descuentito? Le doy veinte."},
+      {"role": "vendor", "text": "Bueno, veintidós. Es mi último precio."},
+      {"role": "traveler", "text": "Trato. Aquí tiene cincuenta pesos."},
+      {"role": "vendor", "text": "Y acá su vuelto, veintiocho pesos."},
+      {"role": "traveler", "text": "Gracias. ¿Son frescos los mangos?"},
+      {"role": "vendor", "text": "Llegaron esta mañana, fresquísimos."}
+    ],
+    "cultural_notes": [
+      "Verhandeln ist normal und erwartet — einen Versuch lohnt immer",
+      "Nicht übertreiben beim Feilschen — eine grobe Preissenkung von 10-20% ist realistisch",
+      "Immer das Wechselgeld nachzählen — nicht unhöflich",
+      "Exotic fruits probieren: chirimoya (Cherimoye), maracuyá (Passionsfrucht), guanábana, tomate de árbol"
+    ],
+    "practice_prompts": [
+      "Kauf Früchte für dein Frühstück",
+      "Verhandle den Preis für ein Souvenir",
+      "Frag ob etwas frisch ist und wann es geliefert wurde"
+    ]
+  },
+  {
+    "id": "s005",
+    "title": "Nach dem Weg fragen",
+    "icon": "🗺️",
+    "difficulty": 2,
+    "description": "Du bist in einer unbekannten Stadt und must dich zurechtfinden — ohne Google Maps zu öffnen.",
+    "context": "Navigation auf Spanisch — essentiell wenn Internet ausfällt oder du dich lokal orientieren willst",
+    "key_vocabulary": ["v018", "v071", "v072", "v073", "v074", "v075", "v076", "v042"],
+    "key_phrases": [
+      "Perdone, ¿me podría decir cómo llego a...?",
+      "¿Está lejos de aquí?",
+      "¿A cuántas cuadras está?",
+      "¿Puedo ir caminando?",
+      "¿Qué bus me lleva a...?",
+      "¿Me lo puede mostrar en el mapa?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Perdone, ¿sabe cómo llego al Museo de Arte?"},
+      {"role": "local", "text": "Sí, claro. No está muy lejos, como unas diez cuadras."},
+      {"role": "traveler", "text": "¿Puedo ir caminando?"},
+      {"role": "local", "text": "Sí, unos veinte minutos a pie. Siga todo recto por esta calle hasta llegar a la plaza."},
+      {"role": "traveler", "text": "¿La plaza San Martín?"},
+      {"role": "local", "text": "Exacto. Cuando llegue a la plaza, doble a la derecha."},
+      {"role": "traveler", "text": "¿A la derecha, entendido. ¿Y luego?"},
+      {"role": "local", "text": "Camine dos cuadras más y va a ver el museo a la izquierda, frente a un parque."},
+      {"role": "traveler", "text": "Perfecto. ¿Está abierto los lunes?"},
+      {"role": "local", "text": "Creo que sí, pero no estoy seguro del horario. Mejor que busque en internet."},
+      {"role": "traveler", "text": "Muchas gracias por su ayuda."},
+      {"role": "local", "text": "De nada. Buen paseo."}
+    ],
+    "cultural_notes": [
+      "Südamerikaner helfen sehr gerne beim Wegbeschreiben — fragen kostet nichts",
+      "'Cuadra' (Häuserblock) ist die Standard-Entfernungseinheit",
+      "Manchmal werden Richtungen mit Himmelsrichtungen angegeben ('hacia el norte')",
+      "Google Maps funktioniert gut in Städten, aber in ländlichen Gebieten offline-Karten herunterladen"
+    ],
+    "practice_prompts": [
+      "Frag nach dem nächsten Geldautomaten",
+      "Du bist verloren — beschreibe wo du bist und frag um Hilfe",
+      "Frag nach dem besten Weg zum Flughafen mit öffentlichen Verkehrsmitteln"
+    ]
+  },
+  {
+    "id": "s006",
+    "title": "Notfall & Arzt",
+    "icon": "🏥",
+    "difficulty": 3,
+    "description": "Ein medizinischer Notfall — du brauchst einen Arzt oder Apotheke und musst deine Symptome beschreiben.",
+    "context": "Notfälle passieren — vorbereitet sein ist alles",
+    "key_vocabulary": ["v078", "v079", "v080", "v081", "v082", "v083", "v084"],
+    "key_phrases": [
+      "No me siento bien. Necesito un médico.",
+      "Me duele el/la...",
+      "Tengo fiebre / náuseas / diarrea.",
+      "Soy alérgico a la penicilina.",
+      "¿Puede darme algo para el dolor?",
+      "Necesito ir a urgencias.",
+      "¿Dónde está el hospital más cercano?"
+    ],
+    "body_parts": [
+      {"es": "la cabeza", "de": "der Kopf"},
+      {"es": "el estómago", "de": "der Magen"},
+      {"es": "la espalda", "de": "der Rücken"},
+      {"es": "el pecho", "de": "die Brust"},
+      {"es": "la pierna", "de": "das Bein"},
+      {"es": "el brazo", "de": "der Arm"},
+      {"es": "la garganta", "de": "die Kehle/der Hals"},
+      {"es": "los ojos", "de": "die Augen"}
+    ],
+    "symptoms": [
+      {"es": "fiebre", "de": "Fieber"},
+      {"es": "náuseas", "de": "Übelkeit"},
+      {"es": "diarrea", "de": "Durchfall"},
+      {"es": "mareos", "de": "Schwindel"},
+      {"es": "vómitos", "de": "Erbrechen"},
+      {"es": "dolor de cabeza", "de": "Kopfschmerzen"},
+      {"es": "falta de aire", "de": "Atemnot"}
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Disculpe, no me siento bien. ¿Hay una farmacia cerca?"},
+      {"role": "pharmacist", "text": "Sí, aquí mismo. ¿Qué síntomas tiene?"},
+      {"role": "traveler", "text": "Me duele mucho el estómago desde anoche y tengo náuseas."},
+      {"role": "pharmacist", "text": "¿Tiene también diarrea o fiebre?"},
+      {"role": "traveler", "text": "Un poco de diarrea, pero no creo que tenga fiebre."},
+      {"role": "pharmacist", "text": "¿Comió algo que pudiera estar en mal estado?"},
+      {"role": "traveler", "text": "Puede ser, comí mariscos en la calle ayer."},
+      {"role": "pharmacist", "text": "Le voy a dar un antiespasmódico y sales de rehidratación. Tome mucho líquido."},
+      {"role": "traveler", "text": "¿Necesito ir al médico?"},
+      {"role": "pharmacist", "text": "Si en 24 horas no mejora o empeora, sí. ¿Es alérgico a algún medicamento?"},
+      {"role": "traveler", "text": "No, que yo sepa. ¿Cuánto es?"}
+    ],
+    "emergency_numbers": {
+      "general_note": "Notrufnummern variieren je nach Land",
+      "argentina": "911",
+      "colombia": "123",
+      "peru": "116 (Gesundheit) / 105 (Polizei)",
+      "chile": "131 (Krankenwagen) / 133 (Polizei)",
+      "bolivia": "110 (Polizei) / 118 (Krankenwagen)"
+    },
+    "practice_prompts": [
+      "Du hast Kopfschmerzen und brauchst ein Schmerzmittel",
+      "Du wurdest bestohlen und erstattest Anzeige",
+      "Du hast Fieber und brauchst einen Arzt"
+    ]
+  },
+  {
+    "id": "s007",
+    "title": "Taxi & Uber",
+    "icon": "🚕",
+    "difficulty": 1,
+    "description": "Ein Taxi nehmen, Preis verhandeln, sicher ankommen.",
+    "context": "Taxis täglich — aber Vorsicht vor Übervorteilung",
+    "key_vocabulary": ["v036", "v037", "v038", "v017", "v068"],
+    "key_phrases": [
+      "¿Cuánto me cobra hasta...?",
+      "¿Puede poner el taxímetro?",
+      "Voy a... por favor.",
+      "¿Me puede dar un recibo?",
+      "Deje aquí, por favor.",
+      "¿Cuánto tiempo demora?"
+    ],
+    "sample_dialogue": [
+      {"role": "traveler", "text": "Hola. ¿Me lleva al aeropuerto internacional?"},
+      {"role": "driver", "text": "Sí, claro. ¿A cuál? ¿Jorge Chávez?"},
+      {"role": "traveler", "text": "Sí, ese. ¿Cuánto me cobra?"},
+      {"role": "driver", "text": "Ochenta soles."},
+      {"role": "traveler", "text": "Un poco caro, ¿no? ¿Me puede hacer un precio?"},
+      {"role": "driver", "text": "Setenta y cinco, con el equipaje incluido."},
+      {"role": "traveler", "text": "De acuerdo. ¿Cuánto tiempo demora?"},
+      {"role": "driver", "text": "Unos cuarenta minutos si no hay tráfico."},
+      {"role": "traveler", "text": "Mi vuelo sale en dos horas. ¿Llegamos?"},
+      {"role": "driver", "text": "Sí, con tiempo de sobra."},
+      {"role": "traveler", "text": "¿Puede darme un recibo al final?"}
+    ],
+    "safety_tips": [
+      "Immer App-basierte Dienste (Uber, InDriver, Beat) bevorzugen — sicherer und transparenter",
+      "In Argentinien: 'remis' vorbestellen statt Straßentaxi nehmen",
+      "Preis VOR der Fahrt vereinbaren wenn kein Taxameter",
+      "Niemals alleine nachts in unbekannten Taxis"
+    ],
+    "practice_prompts": [
+      "Fahre zur Hauptattraktion der Stadt",
+      "Der Fahrer nimmt eine falsche Route — weise ihn zurecht",
+      "Du willst Uber aber erklärst die Adresse auf Spanisch"
+    ]
+  },
+  {
+    "id": "s008",
+    "title": "Soziales & Kennenlernen",
+    "icon": "🤝",
+    "difficulty": 2,
+    "description": "Einheimische oder andere Reisende kennenlernen, über deine Reise sprechen, Verabredungen treffen.",
+    "context": "Der schönste Teil des Reisens — echte Verbindungen knüpfen",
+    "key_vocabulary": ["v085", "v086", "v087", "v088", "v089", "v090", "v015", "v016"],
+    "key_phrases": [
+      "¿De dónde sos / eres?",
+      "¿Cuánto tiempo llevas viajando?",
+      "¿Qué lugares has visitado?",
+      "¿Qué recomendás para ver en...?",
+      "¿Qué hacés esta noche?",
+      "¿Salimos a tomar algo?"
+    ],
+    "sample_dialogue": [
+      {"role": "local", "text": "Che, ¿de dónde sos? No sos argentino, ¿verdad?"},
+      {"role": "traveler", "text": "No, soy alemán. Soy de München. Me llamo Lukas."},
+      {"role": "local", "text": "¡Buenísimo! Yo soy Matías, soy de acá de Buenos Aires. ¿Cuánto tiempo estás?"},
+      {"role": "traveler", "text": "Tres semanas. Vine hace cinco días y después voy a Patagonia."},
+      {"role": "local", "text": "¡Qué buena onda! ¿Ya fuiste a La Boca?"},
+      {"role": "traveler", "text": "Sí, ayer. Estuvo muy copado. ¿Qué más me recomendás?"},
+      {"role": "local", "text": "Palermo es buenísimo para salir de noche. ¿Tenés planes esta noche?"},
+      {"role": "traveler", "text": "No, estoy libre. ¿Me mostrás algún lugar?"},
+      {"role": "local", "text": "Dale, te llevo a un bar de jazz en San Telmo. Muy buena onda el lugar."},
+      {"role": "traveler", "text": "¡Perfecto! Me encanta el jazz. ¿A qué hora quedamos?"},
+      {"role": "local", "text": "A las diez en la puerta de tu hostel. Acá la gente sale tarde."}
+    ],
+    "cultural_notes": [
+      "Argentinier sind sehr offen und gesellig — Gespräche entstehen schnell",
+      "'Che' und 'boludo' (zwischen Freunden) sind normale Anreden in Buenos Aires",
+      "Ausgehen in Argentinien: Abendessen um 22 Uhr, Bar um Mitternacht, Club um 2 Uhr",
+      "Maté teilen ist ein Zeichen von Freundschaft — niemals ablehnen wenn angeboten"
+    ],
+    "practice_prompts": [
+      "Stell dich vor und erzähl von deiner Reise",
+      "Frag nach Empfehlungen für Restaurants",
+      "Verabrede dich für morgen"
+    ]
+  }
+]

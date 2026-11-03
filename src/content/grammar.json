@@ -1,0 +1,450 @@
+[
+  {
+    "id": "g001",
+    "title": "Presente Regular",
+    "subtitle": "Regelmäßige Verben im Präsens",
+    "level": 1,
+    "explanation": "Im Spanischen gibt es drei Verbgruppen: -AR, -ER und -IR. Regelmäßige Verben folgen festen Endungsmustern. Der Stamm bleibt gleich, nur die Endung wechselt je nach Person.",
+    "conjugation_tables": [
+      {
+        "verb": "hablar (sprechen)",
+        "type": "-AR",
+        "rows": [
+          {"person": "yo", "form": "hablo", "german": "ich spreche"},
+          {"person": "tú", "form": "hablas", "german": "du sprichst"},
+          {"person": "él/ella/usted", "form": "habla", "german": "er/sie spricht"},
+          {"person": "nosotros", "form": "hablamos", "german": "wir sprechen"},
+          {"person": "vosotros", "form": "habláis", "german": "ihr sprecht (Spanien)"},
+          {"person": "ellos/ustedes", "form": "hablan", "german": "sie/Sie sprechen"}
+        ]
+      },
+      {
+        "verb": "comer (essen)",
+        "type": "-ER",
+        "rows": [
+          {"person": "yo", "form": "como", "german": "ich esse"},
+          {"person": "tú", "form": "comes", "german": "du isst"},
+          {"person": "él/ella", "form": "come", "german": "er/sie isst"},
+          {"person": "nosotros", "form": "comemos", "german": "wir essen"},
+          {"person": "ellos/ustedes", "form": "comen", "german": "sie/Sie essen"}
+        ]
+      },
+      {
+        "verb": "vivir (leben/wohnen)",
+        "type": "-IR",
+        "rows": [
+          {"person": "yo", "form": "vivo", "german": "ich wohne"},
+          {"person": "tú", "form": "vives", "german": "du wohnst"},
+          {"person": "él/ella", "form": "vive", "german": "er/sie wohnt"},
+          {"person": "nosotros", "form": "vivimos", "german": "wir wohnen"},
+          {"person": "ellos/ustedes", "form": "viven", "german": "sie/Sie wohnen"}
+        ]
+      }
+    ],
+    "examples": [
+      {"es": "Hablo un poco de español.", "de": "Ich spreche ein bisschen Spanisch."},
+      {"es": "¿Dónde vives?", "de": "Wo wohnst du?"},
+      {"es": "Comemos a las dos.", "de": "Wir essen um zwei Uhr."},
+      {"es": "El bus sale a las ocho.", "de": "Der Bus fährt um acht Uhr ab."},
+      {"es": "¿Hablan inglés aquí?", "de": "Spricht man hier Englisch?"}
+    ],
+    "travel_tip": "Die häufigsten Verben für Reisende: 'hablar' (sprechen), 'necesitar' (brauchen), 'querer' (wollen), 'tener' (haben), 'buscar' (suchen). Mit diesen 5 Verben kommst du in den meisten Situationen weiter.",
+    "exercises": [
+      {"type": "fill_blank", "sentence": "Yo ______ (hablar) español un poco.", "answer": "hablo", "hint": "yo + hablar (-AR Verb)"},
+      {"type": "fill_blank", "sentence": "Nosotros ______ (comer) en el restaurante.", "answer": "comemos", "hint": "nosotros + comer (-ER Verb)"},
+      {"type": "fill_blank", "sentence": "Ella ______ (vivir) en Buenos Aires.", "answer": "vive", "hint": "ella + vivir (-IR Verb)"},
+      {"type": "translate", "german": "Der Bus fährt um neun Uhr ab.", "answer": "El bus sale a las nueve.", "hint": "salir → sale"},
+      {"type": "multiple_choice", "question": "Wie konjugiert man 'trabajar' (arbeiten) für 'tú'?", "options": ["trabajas", "trabaja", "trabajo", "trabajamos"], "answer": "trabajas"}
+    ]
+  },
+  {
+    "id": "g002",
+    "title": "Ser vs. Estar",
+    "subtitle": "Die zwei 'sein'-Verben",
+    "level": 1,
+    "explanation": "Spanisch hat zwei Verben für 'sein': SER und ESTAR. SER drückt dauerhaft-wesentliche Eigenschaften aus. ESTAR drückt Zustände, Befinden, Lage und temporäre Situationen aus. Diese Unterscheidung ist eine der wichtigsten in der spanischen Grammatik.",
+    "conjugation_tables": [
+      {
+        "verb": "ser (sein - dauerhaft)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "soy", "german": "ich bin"},
+          {"person": "tú", "form": "eres", "german": "du bist"},
+          {"person": "él/ella", "form": "es", "german": "er/sie ist"},
+          {"person": "nosotros", "form": "somos", "german": "wir sind"},
+          {"person": "ellos/ustedes", "form": "son", "german": "sie/Sie sind"}
+        ]
+      },
+      {
+        "verb": "estar (sein - Zustand/Lage)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "estoy", "german": "ich bin"},
+          {"person": "tú", "form": "estás", "german": "du bist"},
+          {"person": "él/ella", "form": "está", "german": "er/sie ist"},
+          {"person": "nosotros", "form": "estamos", "german": "wir sind"},
+          {"person": "ellos/ustedes", "form": "están", "german": "sie/Sie sind"}
+        ]
+      }
+    ],
+    "examples": [
+      {"es": "Soy de Alemania. (Herkunft → SER)", "de": "Ich bin aus Deutschland."},
+      {"es": "El hotel está cerca del centro. (Lage → ESTAR)", "de": "Das Hotel liegt in der Nähe des Zentrums."},
+      {"es": "La comida está muy rica. (Zustand → ESTAR)", "de": "Das Essen ist sehr lecker."},
+      {"es": "El restaurante es famoso. (Eigenschaft → SER)", "de": "Das Restaurant ist berühmt."},
+      {"es": "¿Estás bien? — Estoy cansado. (Befinden → ESTAR)", "de": "Geht es dir gut? — Ich bin müde."},
+      {"es": "¿Dónde está la terminal? (Ort → ESTAR)", "de": "Wo ist der Busbahnhof?"}
+    ],
+    "memory_trick": "SER: Wer/Was bin ich dauerhaft? (Identität, Herkunft, Beruf, Nationalität, Zeit). ESTAR: Wie geht es mir / Wo bin ich? (Gefühl, Gesundheit, Position, temporärer Zustand)",
+    "travel_tip": "'¿Dónde está...?' (Wo ist...) immer mit ESTAR, denn es geht um einen Ort/Lage. '¿Cuánto es?' (Wie viel kostet das?) mit SER. '¿Cómo estás?' (Wie geht es dir?) mit ESTAR.",
+    "exercises": [
+      {"type": "multiple_choice", "question": "¿______ el baño? (Wo ist die Toilette?)", "options": ["¿Dónde es", "¿Dónde está", "¿Cuándo es", "¿Cuándo está"], "answer": "¿Dónde está"},
+      {"type": "fill_blank", "sentence": "La empanada ______ (estar) muy rica.", "answer": "está", "hint": "Zustand/Geschmack → ESTAR"},
+      {"type": "fill_blank", "sentence": "Yo ______ (ser) alemán.", "answer": "soy", "hint": "Nationalität → SER"},
+      {"type": "translate", "german": "Das Museum ist geschlossen. (Zustand)", "answer": "El museo está cerrado.", "hint": "Zustand → estar"},
+      {"type": "multiple_choice", "question": "La habitación ______ limpia. (sauber = aktueller Zustand → estar)", "options": ["es", "está", "son", "están"], "answer": "está"}
+    ]
+  },
+  {
+    "id": "g003",
+    "title": "Pretérito Indefinido",
+    "subtitle": "Einfache Vergangenheit — abgeschlossene Handlungen",
+    "level": 2,
+    "explanation": "Das Pretérito Indefinido (auch: Pretérito Perfecto Simple) beschreibt abgeschlossene Handlungen in der Vergangenheit. 'Ich bin angekommen', 'Ich habe gegessen', 'Der Bus fuhr ab' — alles klare, abgeschlossene Ereignisse.",
+    "conjugation_tables": [
+      {
+        "verb": "llegar (ankommen) — -AR",
+        "type": "preterite-ar",
+        "rows": [
+          {"person": "yo", "form": "llegué", "german": "ich kam an"},
+          {"person": "tú", "form": "llegaste", "german": "du kamst an"},
+          {"person": "él/ella", "form": "llegó", "german": "er/sie kam an"},
+          {"person": "nosotros", "form": "llegamos", "german": "wir kamen an"},
+          {"person": "ellos/ustedes", "form": "llegaron", "german": "sie kamen an"}
+        ]
+      },
+      {
+        "verb": "comer (essen) — -ER",
+        "type": "preterite-er",
+        "rows": [
+          {"person": "yo", "form": "comí", "german": "ich aß"},
+          {"person": "tú", "form": "comiste", "german": "du aßest"},
+          {"person": "él/ella", "form": "comió", "german": "er/sie aß"},
+          {"person": "nosotros", "form": "comimos", "german": "wir aßen"},
+          {"person": "ellos/ustedes", "form": "comieron", "german": "sie aßen"}
+        ]
+      },
+      {
+        "verb": "ir/ser (gehen/sein) — unregelmäßig",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "fui", "german": "ich ging / ich war"},
+          {"person": "tú", "form": "fuiste", "german": "du gingst / du warst"},
+          {"person": "él/ella", "form": "fue", "german": "er/sie ging / war"},
+          {"person": "nosotros", "form": "fuimos", "german": "wir gingen / waren"},
+          {"person": "ellos/ustedes", "form": "fueron", "german": "sie gingen / waren"}
+        ]
+      }
+    ],
+    "examples": [
+      {"es": "Llegué ayer a las seis de la tarde.", "de": "Ich kam gestern um sechs Uhr nachmittags an."},
+      {"es": "Fui al mercado y compré frutas.", "de": "Ich ging auf den Markt und kaufte Obst."},
+      {"es": "El bus salió a tiempo.", "de": "Der Bus fuhr pünktlich ab."},
+      {"es": "Comimos en un restaurante muy bueno.", "de": "Wir aßen in einem sehr guten Restaurant."},
+      {"es": "¿Dónde estuviste ayer?", "de": "Wo warst du gestern?"}
+    ],
+    "time_markers": ["ayer (gestern)", "anteayer (vorgestern)", "la semana pasada (letzte Woche)", "el año pasado (letztes Jahr)", "hace dos días (vor zwei Tagen)"],
+    "travel_tip": "Für Reiseerzählungen ist diese Zeitform unverzichtbar: 'Llegué a...', 'Visité...', 'Comí...', 'Fui a...'. Lerne die unregelmäßigen Verben: ir/ser (fui), tener (tuve), hacer (hice), estar (estuve), poder (pude).",
+    "exercises": [
+      {"type": "fill_blank", "sentence": "Ayer ______ (llegar) al hostel a medianoche.", "answer": "llegué", "hint": "yo + llegar (Indefinido)"},
+      {"type": "fill_blank", "sentence": "¿______ (tú, ir) al mercado ayer?", "answer": "fuiste", "hint": "tú + ir (Indefinido irregular)"},
+      {"type": "translate", "german": "Wir aßen in einem peruanischen Restaurant.", "answer": "Comimos en un restaurante peruano.", "hint": "nosotros + comer"},
+      {"type": "multiple_choice", "question": "El bus ______ con retraso.", "options": ["salió", "sale", "salgo", "salimos"], "answer": "salió"},
+      {"type": "fill_blank", "sentence": "Me ______ (robar) la cámara en el mercado.", "answer": "robaron", "hint": "ellos + robar (mir wurde gestohlen)"}
+    ]
+  },
+  {
+    "id": "g004",
+    "title": "Pretérito Imperfecto",
+    "subtitle": "Vergangenheit — Zustände und Gewohnheiten",
+    "level": 2,
+    "explanation": "Das Imperfecto beschreibt vergangene Zustände, Gewohnheiten und andauernde Hintergrundhandlungen. Während das Indefinido einzelne abgeschlossene Ereignisse beschreibt ('ich kam an'), schildert das Imperfecto die Situation drumherum ('es war heiß', 'es gab viele Menschen').",
+    "conjugation_tables": [
+      {
+        "verb": "hablar (sprechen) — -AR",
+        "type": "imperfect-ar",
+        "rows": [
+          {"person": "yo", "form": "hablaba", "german": "ich sprach (hab. / Zustand)"},
+          {"person": "tú", "form": "hablabas", "german": "du sprachst"},
+          {"person": "él/ella", "form": "hablaba", "german": "er/sie sprach"},
+          {"person": "nosotros", "form": "hablábamos", "german": "wir sprachen"},
+          {"person": "ellos", "form": "hablaban", "german": "sie sprachen"}
+        ]
+      },
+      {
+        "verb": "ser / estar / tener — unregelmäßig",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "era / estaba / tenía", "german": "ich war / war / hatte"},
+          {"person": "tú", "form": "eras / estabas / tenías", "german": "du warst / warst / hattest"},
+          {"person": "él", "form": "era / estaba / tenía", "german": "er war / war / hatte"},
+          {"person": "nosotros", "form": "éramos / estábamos / teníamos", "german": "wir waren / waren / hatten"}
+        ]
+      }
+    ],
+    "examples": [
+      {"es": "Cuando llegué, hacía mucho calor.", "de": "Als ich ankam, war es sehr heiß."},
+      {"es": "El mercado estaba muy lleno.", "de": "Der Markt war sehr voll."},
+      {"es": "Antes viajaba mucho por Europa.", "de": "Früher reiste ich viel durch Europa."},
+      {"es": "Había mucha gente en la plaza.", "de": "Es gab viele Leute auf dem Platz."},
+      {"es": "Mientras comía, empezó a llover.", "de": "Während ich aß, begann es zu regnen."}
+    ],
+    "preterite_vs_imperfect": "Indefinido = Was ist passiert? (Action). Imperfecto = Wie war die Situation? (Beschreibung). Beispiel: 'Cuando llegué (indefinido — Ereignis) al restaurante, había mucha gente (imperfecto — Zustand).'",
+    "time_markers": ["siempre (immer)", "normalmente (normalerweise)", "antes (früher)", "cuando era niño (als ich Kind war)", "todos los días (jeden Tag)"],
+    "exercises": [
+      {"type": "fill_blank", "sentence": "Cuando ______ (ser) pequeño, no hablaba español.", "answer": "era", "hint": "yo + ser (Imperfecto irregular)"},
+      {"type": "fill_blank", "sentence": "El hotel ______ (estar) muy bien ubicado.", "answer": "estaba", "hint": "estar (Imperfecto)"},
+      {"type": "translate", "german": "Es gab keinen Bus um Mitternacht.", "answer": "No había ningún bus a medianoche.", "hint": "haber → había"},
+      {"type": "multiple_choice", "question": "Mientras yo ______ en el café, empezó a llover.", "options": ["estaba", "estuve", "estuvo", "estaban"], "answer": "estaba"},
+      {"type": "fill_blank", "sentence": "El guía ______ (hablar) muy rápido y no le entendía.", "answer": "hablaba", "hint": "Dauernder Zustand → Imperfecto"}
+    ]
+  },
+  {
+    "id": "g005",
+    "title": "Interrogativos",
+    "subtitle": "Fragewörter",
+    "level": 1,
+    "explanation": "Mit den richtigen Fragewörtern kannst du in fast jeder Situation die Informationen bekommen, die du brauchst. Alle Fragewörter tragen einen Akzent.",
+    "question_words": [
+      {"word": "¿qué?", "german": "Was?", "example_es": "¿Qué es esto?", "example_de": "Was ist das?"},
+      {"word": "¿dónde?", "german": "Wo?", "example_es": "¿Dónde está el hotel?", "example_de": "Wo ist das Hotel?"},
+      {"word": "¿adónde?", "german": "Wohin?", "example_es": "¿Adónde vas?", "example_de": "Wohin gehst du?"},
+      {"word": "¿cuándo?", "german": "Wann?", "example_es": "¿Cuándo sale el bus?", "example_de": "Wann fährt der Bus?"},
+      {"word": "¿cómo?", "german": "Wie?", "example_es": "¿Cómo llego al centro?", "example_de": "Wie komme ich ins Zentrum?"},
+      {"word": "¿cuánto/a?", "german": "Wie viel?", "example_es": "¿Cuánto cuesta?", "example_de": "Wie viel kostet das?"},
+      {"word": "¿cuántos/as?", "german": "Wie viele?", "example_es": "¿Cuántos días te quedas?", "example_de": "Wie viele Tage bleibst du?"},
+      {"word": "¿quién? / ¿quiénes?", "german": "Wer?", "example_es": "¿Quién habla inglés aquí?", "example_de": "Wer spricht hier Englisch?"},
+      {"word": "¿por qué?", "german": "Warum?", "example_es": "¿Por qué está cerrado?", "example_de": "Warum ist es geschlossen?"},
+      {"word": "¿cuál? / ¿cuáles?", "german": "Welcher/Welche?", "example_es": "¿Cuál es el mejor restaurante?", "example_de": "Was ist das beste Restaurant?"}
+    ],
+    "essential_travel_questions": [
+      "¿Dónde está...? (Wo ist...?)",
+      "¿A qué hora...? (Um wie viel Uhr...?)",
+      "¿Cuánto cuesta...? (Was kostet...?)",
+      "¿Cómo se llama...? (Wie heißt...?)",
+      "¿Hay...? (Gibt es...?)"
+    ],
+    "exercises": [
+      {"type": "fill_blank", "sentence": "______ cuesta el boleto? — Son veinte pesos.", "answer": "¿Cuánto", "hint": "Wie viel kostet?"},
+      {"type": "fill_blank", "sentence": "______ está la farmacia más cercana?", "answer": "¿Dónde", "hint": "Wo?"},
+      {"type": "fill_blank", "sentence": "______ sale el próximo bus para Lima?", "answer": "¿Cuándo", "hint": "Wann?"},
+      {"type": "translate", "german": "Wie komme ich zum Flughafen?", "answer": "¿Cómo llego al aeropuerto?", "hint": "cómo + llegar"},
+      {"type": "multiple_choice", "question": "______ es el precio? (Was ist der Preis?)", "options": ["¿Cuál", "¿Qué", "¿Cuánto", "¿Cómo"], "answer": "¿Cuál"}
+    ]
+  },
+  {
+    "id": "g006",
+    "title": "Condicional — Quisiera / Podría",
+    "subtitle": "Höfliche Bitten und Wünsche",
+    "level": 2,
+    "explanation": "Mit dem Konditional kannst du höflich bitten und Wünsche äußern. Für Reisende ist besonders 'quisiera' (ich würde gerne) und 'podría' (könnten Sie) unverzichtbar — höflicher als das direkte 'quiero' (ich will).",
+    "key_forms": [
+      {"form": "quisiera", "base": "querer → Konditional", "german": "Ich würde gerne", "example_es": "Quisiera una habitación doble.", "example_de": "Ich würde gerne ein Doppelzimmer."},
+      {"form": "me gustaría", "base": "gustar → Konditional", "german": "Ich würde gerne / Mir würde... gefallen", "example_es": "Me gustaría visitar Machu Picchu.", "example_de": "Ich würde gerne Machu Picchu besuchen."},
+      {"form": "¿podría...?", "base": "poder → Konditional", "german": "Könnten Sie...?", "example_es": "¿Podría hablar más despacio?", "example_de": "Könnten Sie langsamer sprechen?"},
+      {"form": "¿tendría...?", "base": "tener → Konditional", "german": "Hätten Sie...?", "example_es": "¿Tendría una habitación más barata?", "example_de": "Hätten Sie ein günstigeres Zimmer?"},
+      {"form": "¿sería posible...?", "base": "ser → Konditional", "german": "Wäre es möglich...?", "example_es": "¿Sería posible pagar mañana?", "example_de": "Wäre es möglich, morgen zu bezahlen?"}
+    ],
+    "examples": [
+      {"es": "Quisiera reservar una mesa para dos, por favor.", "de": "Ich würde gerne einen Tisch für zwei reservieren."},
+      {"es": "Me gustaría cambiar de habitación.", "de": "Ich würde gerne das Zimmer wechseln."},
+      {"es": "¿Podría recomendarme un buen restaurante?", "de": "Könnten Sie mir ein gutes Restaurant empfehlen?"},
+      {"es": "¿Tendría algo más barato?", "de": "Hätten Sie etwas Günstigeres?"},
+      {"es": "¿Sería posible hacer el check-out más tarde?", "de": "Wäre es möglich, später auszuchecken?"}
+    ],
+    "travel_tip": "Im Alltag reichen 'quisiera' und '¿podría?' für 90% der höflichen Situationen. 'Quiero' (ich will) ist grammatisch korrekt, aber kann hart klingen — quisiera ist freundlicher.",
+    "exercises": [
+      {"type": "fill_blank", "sentence": "______ una cerveza, por favor. (Ich hätte gerne ein Bier)", "answer": "Quisiera", "hint": "querer → Konditional"},
+      {"type": "fill_blank", "sentence": "¿______ (usted) hablar más despacio?", "answer": "Podría", "hint": "poder → Konditional"},
+      {"type": "translate", "german": "Ich würde gerne das Zimmer wechseln.", "answer": "Me gustaría cambiar de habitación.", "hint": "me gustaría + infinitiv"},
+      {"type": "multiple_choice", "question": "Höflichste Art um etwas zu bestellen:", "options": ["Quisiera...", "Quiero...", "Dame...", "Trae..."], "answer": "Quisiera..."},
+      {"type": "translate", "german": "Könnten Sie mir helfen?", "answer": "¿Podría ayudarme?", "hint": "poder + ayudar"}
+    ]
+  },
+  {
+    "id": "g007",
+    "title": "Verbos Irregulares Esenciales",
+    "subtitle": "Die wichtigsten unregelmäßigen Verben",
+    "level": 1,
+    "explanation": "Die häufigsten spanischen Verben sind unregelmäßig. Diese 6 Verben decken einen Großteil der Alltagssituationen ab — sie müssen auswendig gelernt werden.",
+    "conjugation_tables": [
+      {
+        "verb": "tener (haben)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "tengo", "german": "ich habe"},
+          {"person": "tú", "form": "tienes", "german": "du hast"},
+          {"person": "él/ella", "form": "tiene", "german": "er/sie hat"},
+          {"person": "nosotros", "form": "tenemos", "german": "wir haben"},
+          {"person": "ellos/ustedes", "form": "tienen", "german": "sie/Sie haben"}
+        ]
+      },
+      {
+        "verb": "ir (gehen/fahren)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "voy", "german": "ich gehe/fahre"},
+          {"person": "tú", "form": "vas", "german": "du gehst/fährst"},
+          {"person": "él/ella", "form": "va", "german": "er/sie geht/fährt"},
+          {"person": "nosotros", "form": "vamos", "german": "wir gehen/fahren"},
+          {"person": "ellos/ustedes", "form": "van", "german": "sie/Sie gehen/fahren"}
+        ]
+      },
+      {
+        "verb": "poder (können/dürfen)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "puedo", "german": "ich kann"},
+          {"person": "tú", "form": "puedes", "german": "du kannst"},
+          {"person": "él/ella", "form": "puede", "german": "er/sie kann"},
+          {"person": "nosotros", "form": "podemos", "german": "wir können"},
+          {"person": "ellos/ustedes", "form": "pueden", "german": "sie/Sie können"}
+        ]
+      },
+      {
+        "verb": "querer (wollen/mögen)",
+        "type": "irregular",
+        "rows": [
+          {"person": "yo", "form": "quiero", "german": "ich will/möchte"},
+          {"person": "tú", "form": "quieres", "german": "du willst/magst"},
+          {"person": "él/ella", "form": "quiere", "german": "er/sie will"},
+          {"person": "nosotros", "form": "queremos", "german": "wir wollen"},
+          {"person": "ellos/ustedes", "form": "quieren", "german": "sie/Sie wollen"}
+        ]
+      }
+    ],
+    "examples": [
+      {"es": "Tengo hambre. ¿Hay un restaurante cerca?", "de": "Ich habe Hunger. Gibt es ein Restaurant in der Nähe?"},
+      {"es": "Vamos al mercado esta tarde.", "de": "Wir gehen heute Nachmittag auf den Markt."},
+      {"es": "¿Puedo pagar con tarjeta?", "de": "Kann ich mit Karte bezahlen?"},
+      {"es": "No puedo comer picante.", "de": "Ich kann nichts Scharfes essen."},
+      {"es": "Quiero ir a Machu Picchu.", "de": "Ich möchte nach Machu Picchu."}
+    ],
+    "exercises": [
+      {"type": "fill_blank", "sentence": "¿______ (tú, poder) ayudarme?", "answer": "puedes", "hint": "tú + poder"},
+      {"type": "fill_blank", "sentence": "Yo ______ (ir) al aeropuerto mañana.", "answer": "voy", "hint": "yo + ir"},
+      {"type": "fill_blank", "sentence": "¿______ (ustedes, tener) habitaciones disponibles?", "answer": "tienen", "hint": "ustedes + tener"},
+      {"type": "translate", "german": "Wir wollen Salsa tanzen lernen.", "answer": "Queremos aprender a bailar salsa.", "hint": "querer + infinitiv"},
+      {"type": "multiple_choice", "question": "¿Usted ______ hablar más despacio, por favor? (Präsens)", "options": ["puede", "puedo", "puedes", "pueden"], "answer": "puede"}
+    ]
+  },
+  {
+    "id": "g008",
+    "title": "Hay / Necesito / Quiero",
+    "subtitle": "Grundkonstruktionen für Reisende",
+    "level": 1,
+    "explanation": "Drei unverzichtbare Konstruktionen für Reisende: HAY (es gibt), NECESITO (ich brauche) und QUIERO/QUISIERA (ich will/hätte gerne). Mit diesen drei Ausdrücken plus Vokabular kommst du in fast jeder Situation weiter.",
+    "key_constructions": [
+      {
+        "pattern": "hay + Substantiv",
+        "german": "Es gibt...",
+        "examples": [
+          {"es": "¿Hay un cajero por aquí?", "de": "Gibt es hier einen Geldautomaten?"},
+          {"es": "No hay habitaciones disponibles.", "de": "Es gibt keine freien Zimmer."},
+          {"es": "¿Hay alguien que hable inglés?", "de": "Gibt es jemanden, der Englisch spricht?"}
+        ]
+      },
+      {
+        "pattern": "necesito + Substantiv / Infinitiv",
+        "german": "Ich brauche... / Ich muss...",
+        "examples": [
+          {"es": "Necesito ayuda.", "de": "Ich brauche Hilfe."},
+          {"es": "Necesito ir al hospital.", "de": "Ich muss ins Krankenhaus."},
+          {"es": "Necesito cambiar dinero.", "de": "Ich muss Geld wechseln."}
+        ]
+      },
+      {
+        "pattern": "quiero / quisiera + Substantiv / Infinitiv",
+        "german": "Ich will / Ich würde gerne...",
+        "examples": [
+          {"es": "Quiero ir a Cusco.", "de": "Ich will nach Cusco."},
+          {"es": "Quisiera una habitación individual.", "de": "Ich hätte gerne ein Einzelzimmer."},
+          {"es": "¿Qué quieres comer?", "de": "Was möchtest du essen?"}
+        ]
+      }
+    ],
+    "exercises": [
+      {"type": "fill_blank", "sentence": "¿______ una farmacia cerca de aquí?", "answer": "Hay", "hint": "Gibt es...?"},
+      {"type": "fill_blank", "sentence": "______ un médico. Me duele mucho el estómago.", "answer": "Necesito", "hint": "Ich brauche..."},
+      {"type": "translate", "german": "Gibt es hier einen Wechselstuben?", "answer": "¿Hay una casa de cambio aquí?", "hint": "hay + casa de cambio"},
+      {"type": "fill_blank", "sentence": "______ reservar una mesa para esta noche.", "answer": "Quisiera", "hint": "Höflichste Form"},
+      {"type": "translate", "german": "Ich brauche Wasser. Ich habe Durst.", "answer": "Necesito agua. Tengo sed.", "hint": "necesito + tener sed"}
+    ]
+  },
+  {
+    "id": "g009",
+    "title": "Voseo — Argentinien & Uruguay",
+    "subtitle": "Die andere Art 'du' zu sagen",
+    "level": 2,
+    "explanation": "In Argentinien, Uruguay und Teilen Kolumbiens wird statt 'tú' das Pronomen 'vos' verwendet. Die Konjugation ist etwas anders als bei 'tú'. Das Voseo ist kein Fehler, sondern normales, gebildetes Spanisch in diesen Ländern.",
+    "comparison_table": [
+      {"tú_form": "tú eres", "vos_form": "vos sos", "german": "du bist"},
+      {"tú_form": "tú tienes", "vos_form": "vos tenés", "german": "du hast"},
+      {"tú_form": "tú hablas", "vos_form": "vos hablás", "german": "du sprichst"},
+      {"tú_form": "tú comes", "vos_form": "vos comés", "german": "du isst"},
+      {"tú_form": "tú vas", "vos_form": "vos vas", "german": "du gehst (identisch!)"},
+      {"tú_form": "tú quieres", "vos_form": "vos querés", "german": "du willst"},
+      {"tú_form": "tú puedes", "vos_form": "vos podés", "german": "du kannst"},
+      {"tú_form": "¿cómo estás?", "vos_form": "¿cómo estás?", "german": "wie geht's? (identisch)"}
+    ],
+    "voseo_rule": "Für -AR/-ER/-IR Verben: Entferne das finale -s der tú-Form und setze einen Akzent. hablas → hablás | comes → comés | vivís → vivís",
+    "examples": [
+      {"es": "Vos sos muy simpático, che.", "de": "Du bist sehr nett, Alter."},
+      {"es": "¿Qué querés tomar?", "de": "Was möchtest du trinken?"},
+      {"es": "¿Adónde vas esta noche?", "de": "Wohin gehst du heute Abend?"},
+      {"es": "¿Cómo andás? (Wie geht's? - Buenos Aires)", "de": "Wie geht's dir?"},
+      {"es": "Che, ¿vos sabés dónde queda la estación?", "de": "Hey, weißt du wo der Bahnhof ist?"}
+    ],
+    "travel_tip": "Als Ausländer wirst du für deinen Versuch des Voseo gelobt. Wenn du es nicht nutzt und 'tú' sagst — völlig okay, jeder versteht dich. Aber das Erkennen von Voseo-Formen ist wichtig, damit du Gespräche verstehst.",
+    "exercises": [
+      {"type": "multiple_choice", "question": "Voseo: 'Du sprichst' auf Argentinisch:", "options": ["vos hablás", "vos hablas", "vos habláis", "tú hablás"], "answer": "vos hablás"},
+      {"type": "translate", "german": "Was isst du? (Voseo)", "answer": "¿Qué comés?", "hint": "comer → vos comés"},
+      {"type": "fill_blank", "sentence": "¿Vos ______ (tener) tiempo para un café?", "answer": "tenés", "hint": "tener → vos tenés"},
+      {"type": "multiple_choice", "question": "Was bedeutet '¿Cómo andás?'", "options": ["Wie geht's dir? (Buenos Aires)", "Wohin gehst du?", "Wo wohnst du?", "Wie heißt du?"], "answer": "Wie geht's dir? (Buenos Aires)"},
+      {"type": "fill_blank", "sentence": "Che, ¿a qué hora ______ (vos, llegar) al hostel?", "answer": "llegás", "hint": "llegar → vos llegás"}
+    ]
+  },
+  {
+    "id": "g010",
+    "title": "Negación y Expresiones Útiles",
+    "subtitle": "Verneinung und nützliche Floskeln",
+    "level": 1,
+    "explanation": "Verneinung ist im Spanischen einfach: 'no' vor das Verb. Aber es gibt auch Doppelnegation ('no... nada', 'no... nadie') und viele nützliche Ausdrücke die man als Reisender täglich braucht.",
+    "negation_patterns": [
+      {"pattern": "no + Verb", "example_es": "No hablo español bien.", "example_de": "Ich spreche nicht gut Spanisch."},
+      {"pattern": "no + Verb + nada", "example_es": "No entiendo nada.", "example_de": "Ich verstehe überhaupt nichts."},
+      {"pattern": "no + Verb + nadie", "example_es": "No hay nadie aquí.", "example_de": "Es ist niemand hier."},
+      {"pattern": "no + Verb + nunca", "example_es": "Nunca he estado en Lima. / No he estado nunca en Lima.", "example_de": "Ich war noch nie in Lima."},
+      {"pattern": "tampoco", "example_es": "Yo tampoco hablo portugués.", "example_de": "Ich spreche auch kein Portugiesisch."}
+    ],
+    "useful_phrases": [
+      {"es": "no sé", "de": "Ich weiß nicht"},
+      {"es": "no importa", "de": "Es macht nichts / Kein Problem"},
+      {"es": "no hay problema", "de": "Kein Problem"},
+      {"es": "claro que sí / claro que no", "de": "Natürlich ja / Natürlich nicht"},
+      {"es": "más o menos", "de": "So lala / Ungefähr"},
+      {"es": "depende", "de": "Es kommt darauf an"},
+      {"es": "qué lástima", "de": "Wie schade"},
+      {"es": "con permiso", "de": "Entschuldigung (wenn man vorbeigeht)"},
+      {"es": "buen provecho", "de": "Guten Appetit"},
+      {"es": "salud", "de": "Prost / Gesundheit"}
+    ],
+    "exercises": [
+      {"type": "fill_blank", "sentence": "______ entiendo nada. ¿Puede repetir?", "answer": "No", "hint": "Verneinung"},
+      {"type": "translate", "german": "Kein Problem, ich warte.", "answer": "No hay problema, espero.", "hint": "no hay problema"},
+      {"type": "fill_blank", "sentence": "No tengo reserva y ______ tengo efectivo. (auch nicht)", "answer": "tampoco", "hint": "auch nicht → tampoco"},
+      {"type": "multiple_choice", "question": "Was sagt man vor dem Essen?", "options": ["Buen provecho", "Salud", "Con permiso", "Claro que sí"], "answer": "Buen provecho"},
+      {"type": "translate", "german": "Ich weiß nicht, wo der Bus abfährt.", "answer": "No sé dónde sale el bus.", "hint": "no sé + dónde"}
+    ]
+  }
+]

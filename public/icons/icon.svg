@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#14202B"/>
+  <path d="M0 400 L130 250 L200 320 L300 170 L420 330 L470 280 L512 330 L512 512 L0 512 Z" fill="#22384A"/>
+  <path d="M300 170 L340 232 L318 224 L300 250 L282 222 L262 232 Z" fill="#E8EEF2"/>
+  <text x="256" y="400" font-family="Helvetica, Arial, sans-serif" font-size="230" font-weight="700" fill="#2EC4B6" text-anchor="middle">Ñ</text>
+</svg>
